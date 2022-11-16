@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<div class="container">
+
+<div class="box2">
+    <div class="form">
+        <div class="row">
+            <!--right-->
+            <div class="loginright col-sm-6">
+
+                <div class="imgcont col-sm-10">
+                    <img src="{% static 'img/undraw_walk_dreaming_u-58-a.svg' %}" alt="pic">
+                </div>
+                <div class="col-sm-10">
+                    <p>Create your ecommernce account and start exploring all our amazing product. Your 
+                        account details will be needed to log in.
+                    </p>
+                </div>
+
+
+                <a href="{% url 'mysiteUrls:loginPage' %}"> Get Started</a>
+            </div>
+            <!--right-->
+
+            <!--left-->
+            <div class="loginleft col-sm-6">
+                <div class="logincontainer col-sm-11">
+                    <h2>Register for an account</h2>
+                    <form action="index.html">
+                        <input type="text" name="username" placeholder="Username">
+                        <input type="email" name="email" placeholder="Email Adress">
+                        <input type="password" name="password" placeholder="Password">
+                        <input type="password" name="password" placeholder="Confirm Password">
+
+                        <input type="submit" name="login" value="Register">
+                        <div class="row space">
+                            <a href="{% url 'mysiteUrls:loginPage' %}">Already have an account?</a>
+                            <a href="{% url 'mysiteUrls:forget_passwordPage' %}">forget password?</a>
+                        </div>
+
+
+                    </form>
+                </div>
+            </div>
+            <!--left-->
+        </div>
+    </div>
+</div>
+</div>
+{% endblock %}
