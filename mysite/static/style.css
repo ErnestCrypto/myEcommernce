@@ -671,6 +671,18 @@ text-transform: capitalize;
    margin-bottom: 20px;
 
 }
+
+.remove{
+   padding: 0 !important;
+   margin: 0 !important;
+    
+}
+
+.rmargin{
+    margin: 0 !important;
+}
+
+
 .footersub2links a{
     display:flex;
     flex-direction:column;
@@ -748,6 +760,7 @@ color:#4C5CED;
 background:white;
 
 }
+
 
 
 /* indexpage */
