@@ -18,7 +18,7 @@ class Forget_PasswordView(TemplateView):
 
 class IndexView(TemplateView):
     template_name = 'index.html'
-    
+   
     def post(self,request):
         if request.method == 'POST':
             return render(request, 'index.html')
@@ -26,7 +26,10 @@ class IndexView(TemplateView):
         return render(request, 'index.html')
         
 
+class ShopView(TemplateView):
+    template_name = 'shop.html'
 
+    
 
 
 
