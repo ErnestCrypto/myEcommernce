@@ -371,7 +371,6 @@ padding-left:calc(var(--bs-gutter-x) * .0)!important;
 .absoluteleft{ 
     display:flex;
     align-items: center;
-
     flex-direction: column;
     text-align: center;
     background:#F1F6F7;
@@ -545,7 +544,6 @@ display:flex;
     height: 10vh;
     width: 100%;
     opacity: 0.5;
-
     background:#384aeb;
 }
 
@@ -639,7 +637,7 @@ z-index: 9;
 }
 .footersub{
 
-    height: 100vh;
+    /* height: 100vh; */
     background:#002347;
 }
 
@@ -732,6 +730,7 @@ z-index: 10;
     justify-content:space-between;
     padding: 15px 0px;
 
+
 }
 
 .emailbox input{
@@ -801,15 +800,6 @@ background:white;
     padding-right:10%;
 }
 
-
-
-
-
-
-
-
-
-
 .loginright{
     display:none;
 }
@@ -820,4 +810,137 @@ height: 50%;
     .loginright img{
     width: 90%;
 }
+
+
+/* index.html */
+
+
+.container-fluid{
+    background:white !important;
+}
+nav{
+    position:relative !important;
+}
+.navbar-nav img{
+    display: none;
+}
+
+.nav-item.nav-link.log{
+    width: 50% !important;
+    margin: 2%;
+    text-align: center;
+
+}
+
+.nav-item{
+    margin-bottom: 5%;
+}
+
+.absoluteright{
+    display: none !important
+}
+
+.mainleft{
+        display: none !important;
+
+}
+.mainabsolute{
+left:0% !important;
+}
+
+
+.mainbody{
+    width: 100% !important;
+    overflow-x: hidden !important;
+    
+}
+
+.imgafter{
+    
+    display: none !important;
+
+}
+
+.imgbg{
+    display: none !important;
+  
+}
+.discount{
+    height:50vh;
+}
+
+.discountlist{
+     display:flex;
+    align-items: start;
+    justify-content: start;
+}
+
+.discountlist{
+    top: 5% !important;
+}
+.discountsub{
+    
+    height: 40vh !important;
+
+}
+
+.footersub2{
+    height:inherit;
+}
+
+.remove img{
+    height: 5vh !important;
+    width: 100% !important;
+   
+
+}
+.rdb{
+    width: 10% !important;
+
+}
+.rab{
+    width: 80% !important;
+   
+}
+
+
+.footerabsolute{
+    left:2% !important;
+    right: 2%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    
+}
+
+.emailbox input{
+
+   padding: 5px 20px;
+    width: 100%;
+
+  
+}
+
+.subbutton{
+   padding: 10px;
+    width: 40%;
+
+    
+}
+
+.emailbox{
+   
+    padding: 15px 15px;
+   
+    width: 100%;
+
+}
+
+/* index.html */
+
+
+
+
+
 }
