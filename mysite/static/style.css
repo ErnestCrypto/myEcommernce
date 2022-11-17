@@ -139,10 +139,24 @@ letter-spacing:0.1em;
 }
 
 
+.count{
+    position:relative;
+    z-index: 9;
+}
 
 
-
-
+.countabsolute{
+    position:absolute;
+    z-index: 10;
+    font-size: 10px;
+    top: 0%;
+    right: 0%;
+    color: white;
+    text-align: center;
+    border-radius: 32px;
+    background:#4C5CED;
+    width:70%;
+}
 
 
 
@@ -847,6 +861,19 @@ nav{
 .mainabsolute{
 left:0% !important;
 }
+
+
+.count{
+   display: none ;
+}
+
+
+.countabsolute{
+      display: none ;
+
+}
+
+
 
 
 .mainbody{
