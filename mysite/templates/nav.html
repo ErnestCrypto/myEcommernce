@@ -87,8 +87,8 @@ customers in locating their products</p>
                 <!---->
                 <div class="col-sm-3 footersub2links">
                     <div class="myalign"><h6>quick links</h6></div>
-                   <a href="">home</a>
-                <a href="">shop</a>
+                <a href="{% url 'mysiteUrls:indexPage' %}" >Home </a>
+                <a href="{% url 'mysiteUrls:shopPage' %}" >Shop</a>
                 <a href="">orders</a>
                 <a href="">contact</a>
 
@@ -170,5 +170,6 @@ customers in locating their products</p>
 
 </body>
 <script src="{% static 'js/main.js' %}"></script>
-
+<!-- MDB -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.0/mdb.min.js"></script>
 </html>
