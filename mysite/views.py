@@ -31,6 +31,13 @@ class ShopView(TemplateView):
 
     
 
+class OrdersView(TemplateView):
+    template_name = 'orders.html'
+    
+   
+class ProductDetailView(TemplateView):
+    template_name = 'product_detail.html'
+
 
 
 

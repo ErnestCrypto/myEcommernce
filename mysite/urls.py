@@ -14,9 +14,12 @@ urlpatterns = [
   path('signup/',views.SignupView.as_view(), name='signupPage'),
   path('forget_password/', views.Forget_PasswordView.as_view(), name='forget_passwordPage'),
   path('shop/', views.ShopView.as_view(), name='shopPage'),
+  path('orders/', views.OrdersView.as_view(), name='ordersPage'),
+  path('product_detail/', views.ProductDetailView.as_view(), name='productDetailPage'),
 
 
-  
+
+ 
 ]
 
 

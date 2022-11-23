@@ -106,7 +106,7 @@
         <!--start search-->
         <div class="col-sm-12 search">
             <!-- start seaerchitem -->
-<div class=" searchitem">
+<div class="searchitem">
    
     <input type="text" name="search" id="mylogin">
 <img src="{% static 'img/search_48px.png' %}" height="20" alt="logo">
@@ -119,7 +119,7 @@
 <!-- start searchresult -->
 <div class="searchresult">
 <!-- Carousel wrapper -->
-<div id="carouselMultiItemExample" class="carousel slide carousel-dark text-center" data-mdb-ride="carousel">
+<div id="carouselMultiItemExample" class="carousel slide carousel-dark text-center " data-mdb-ride="carousel">
     
     <!-- Inner -->
     <div class="carousel-inner py-4 ">
@@ -127,49 +127,51 @@
         <div class="carousel-item active ">
             <div class="container ">
                 <div class="row ">
-                    <div class="col-lg-4">
+                    
+                    <div class="col-lg-4" >
+                        <a href="{% url 'mysiteUrls:productDetailPage' %}">
                         <div class="card">
-                            <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/181.webp" class="card-img-top"
-                                alt="Waterfall" />
+<img src="{% static 'img/products/photo-1606107557195-0e29a4b5b4aa (1).jpeg' %}"
+    height="100%" width="100%" alt="logo" />
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">
-                                    Some quick example text to build on the card title and make up the bulk
-                                    of the card's content.
-                                </p>
-                                <a href="#!" class="btn btn-primary">Button</a>
+                                <div class="card-item">
+                                <h5>nike airforce</h5>
+                                <p>ghc 130.00</p>
+                                </div>
                             </div>
                         </div>
+                        </a>
+                    </div>
+                    
+
+                    <div class="col-lg-4 d-none d-lg-block">
+                        <a href="#">
+                        <div class="card">
+                            <img src="{% static 'img/products/istockphoto-1320786676-170667a.jpg' %}" height="100%"
+                                width="100%" alt="logo" />
+                           <div class="card-body">
+                                <div class="card-item">
+                                <h5>nike airforce</h5>
+                                <p>ghc 130.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        </a>
                     </div>
 
                     <div class="col-lg-4 d-none d-lg-block">
+                        <a href="#">
                         <div class="card">
-                            <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/182.webp" class="card-img-top"
-                                alt="Sunset Over the Sea" />
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">
-                                    Some quick example text to build on the card title and make up the bulk
-                                    of the card's content.
-                                </p>
-                                <a href="#!" class="btn btn-primary">Button</a>
+                            <img src="{% static 'img/products/photo-1607522370275-f14206abe5d3.jpeg' %}"
+                                height="100%" width="100%" alt="logo" />
+                           <div class="card-body">
+                                <div class="card-item">
+                                <h5>nike airforce</h5>
+                                <p>ghc 130.00</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="col-lg-4 d-none d-lg-block">
-                        <div class="card">
-                            <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/183.webp" class="card-img-top"
-                                alt="Sunset over the Sea" />
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">
-                                    Some quick example text to build on the card title and make up the bulk
-                                    of the card's content.
-                                </p>
-                                <a href="#!" class="btn btn-primary">Button</a>
-                            </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -177,49 +179,43 @@
 
         <!-- Single item -->
         <div class="carousel-item">
-            <div class="container">
+            <div class="container ">
                 <div class="row">
                     <div class="col-lg-4 col-md-12">
+                    
                         <div class="card">
-                            <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/184.webp" class="card-img-top"
-                                alt="Fissure in Sandstone" />
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">
-                                    Some quick example text to build on the card title and make up the bulk
-                                    of the card's content.
-                                </p>
-                                <a href="#!" class="btn btn-primary">Button</a>
+                            <img src="{% static 'img/products/pexels-pixabay-277390.jpg' %}" height="100%" width="100%" alt="logo" />
+                           <div class="card-body">
+                                <div class="card-item">
+                                <h5>nike airforce</h5>
+                                <p>ghc 130.00</p>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-4 d-none d-lg-block">
                         <div class="card">
-                            <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/185.webp" class="card-img-top"
-                                alt="Storm Clouds" />
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">
-                                    Some quick example text to build on the card title and make up the bulk
-                                    of the card's content.
-                                </p>
-                                <a href="#!" class="btn btn-primary">Button</a>
+                            <img src="{% static 'img/products/Omega-watch-high-quality_m.jpg' %}"
+                                height="100%" width="100%" alt="logo" />
+                           <div class="card-body">
+                                <div class="card-item">
+                                <h5>nike airforce</h5>
+                                <p>ghc 130.00</p>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-4 d-none d-lg-block">
                         <div class="card">
-                            <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/186.webp" class="card-img-top"
-                                alt="Hot Air Balloons" />
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">
-                                    Some quick example text to build on the card title and make up the bulk
-                                    of the card's content.
-                                </p>
-                                <a href="#!" class="btn btn-primary">Button</a>
+                        <img src="{% static 'img/products/71S8CqFiKLL._SY355_.jpg' %}"
+                            height="100%" width="100%" alt="logo" />
+                           <div class="card-body">
+                                <div class="card-item">
+                                <h5>nike airforce</h5>
+                                <p>ghc 130.00</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -233,48 +229,42 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
                         <div class="card">
-                            <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/187.webp" class="card-img-top"
-                                alt="Peaks Against the Starry Sky" />
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">
-                                    Some quick example text to build on the card title and make up the bulk
-                                    of the card's content.
-                                </p>
-                                <a href="#!" class="btn btn-primary">Button</a>
+                            <img src="{% static 'img/products/bleu-de-chanel-parfum-spray-3-4fl-oz-packshot-default-107180-8821897232414.jpg' %}"
+                                height="100%" width="100%" alt="logo" />
+                           <div class="card-body">
+                                <div class="card-item">
+                                <h5>nike airforce</h5>
+                                <p>ghc 130.00</p>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-4 mb-4 mb-lg-0 d-none d-lg-block">
                         <div class="card">
-                            <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/188.webp" class="card-img-top"
-                                alt="Bridge Over Water" />
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">
-                                    Some quick example text to build on the card title and make up the bulk
-                                    of the card's content.
-                                </p>
-                                <a href="#!" class="btn btn-primary">Button</a>
+                            <img src="{% static 'img//products/299-2994689_nike-sb-pique-polo-high-resolution-black-t.png' %}" height="100%"
+                                width="100%" alt="logo">
+                           <div class="card-body">
+                                <div class="card-item">
+                                <h5>nike airforce</h5>
+                                <p>ghc 130.00</p>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-4 mb-4 mb-lg-0 d-none d-lg-block">
                         <div class="card">
-                            <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/189.webp" class="card-img-top"
-                                alt="Purbeck Heritage Coast" />
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">
-                                    Some quick example text to build on the card title and make up the bulk
-                                    of the card's content.
-                                </p>
-                                <a href="#!" class="btn btn-primary">Button</a>
+                            <img src="{% static 'img/products/10741489.jpg' %}" height="100%" width="100%" alt="logo">
+                           <div class="card-body">
+                                <div class="card-item">
+                                <h5>nike airforce</h5>
+                                <p>ghc 130.00</p>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </div>
@@ -294,21 +284,470 @@
     <!-- controls -->
 </div>
 <!-- Carousel wrapper -->
+
+
+
+
+
+
 </div>
 <!-- end searchresult -->
-
-
-
-
-
-
-    </div>
-    <!--end itemright-->
+</div>
+<!--end itemright-->
 </div>
 </div>
 <!--end shopcontent-->
 </div>
 <!--end shop body-->
+
+<!-- start shoplist -->
+<div class="col-sm-12 myshoplist">
+    <!-- start shoplistitems -->
+    <div class="col-sm-11 shoplistitems ">
+        <div class="row">
+            <!-- start margin -->
+            <div class="col-sm-3">
+                <!-- start itms -->
+                <div class="col-sm-12 itms ">
+                    <img src="{% static 'img/products/10741489.jpg' %}" height="100%" width="100%" alt="logo">
+                    <!-- start itsmabsolute -->
+                    <div class="itsmabsolute">
+                        <div class="itsmabsolutesub">
+                            <h5>nike airforce </h5>
+                            <p>ghc 130.00</p>
+                        </div>
+                    </div>
+                    <!-- end itsmabsolute -->
+                </div>
+                <!-- end itms -->
+            </div>
+            <!-- end margin -->
+        <!-- start margin -->
+        <div class="col-sm-3">
+            <!-- start itms -->
+            <div class="col-sm-12 itms ">
+                <img src="{% static 'img/products/10741489.jpg' %}" height="100%" width="100%" alt="logo">
+                <!-- start itsmabsolute -->
+                <div class="itsmabsolute">
+                    <div class="itsmabsolutesub">
+                        <h5>nike airforce </h5>
+                        <p>ghc 130.00</p>
+                    </div>
+                </div>
+                <!-- end itsmabsolute -->
+            </div>
+            <!-- end itms -->
+        </div>
+        <!-- end margin --><!-- start margin -->
+        <div class="col-sm-3">
+            <!-- start itms -->
+            <div class="col-sm-12 itms ">
+                <img src="{% static 'img/products/10741489.jpg' %}" height="100%" width="100%" alt="logo">
+                <!-- start itsmabsolute -->
+                <div class="itsmabsolute">
+                    <div class="itsmabsolutesub">
+                        <h5>nike airforce </h5>
+                        <p>ghc 130.00</p>
+                    </div>
+                </div>
+                <!-- end itsmabsolute -->
+            </div>
+            <!-- end itms -->
+        </div>
+        <!-- end margin --><!-- start margin -->
+        <div class="col-sm-3">
+            <!-- start itms -->
+            <div class="col-sm-12 itms ">
+                <img src="{% static 'img/products/10741489.jpg' %}" height="100%" width="100%" alt="logo">
+                <!-- start itsmabsolute -->
+                <div class="itsmabsolute">
+                    <div class="itsmabsolutesub">
+                        <h5>nike airforce </h5>
+                        <p>ghc 130.00</p>
+                    </div>
+                </div>
+                <!-- end itsmabsolute -->
+            </div>
+            <!-- end itms -->
+        </div>
+        <!-- end margin --><!-- start margin -->
+        <div class="col-sm-3">
+            <!-- start itms -->
+            <div class="col-sm-12 itms ">
+                <img src="{% static 'img/products/10741489.jpg' %}" height="100%" width="100%" alt="logo">
+                <!-- start itsmabsolute -->
+                <div class="itsmabsolute">
+                    <div class="itsmabsolutesub">
+                        <h5>nike airforce </h5>
+                        <p>ghc 130.00</p>
+                    </div>
+                </div>
+                <!-- end itsmabsolute -->
+            </div>
+            <!-- end itms -->
+        </div>
+        <!-- end margin --><!-- start margin -->
+        <div class="col-sm-3">
+            <!-- start itms -->
+            <div class="col-sm-12 itms ">
+                <img src="{% static 'img/products/10741489.jpg' %}" height="100%" width="100%" alt="logo">
+                <!-- start itsmabsolute -->
+                <div class="itsmabsolute">
+                    <div class="itsmabsolutesub">
+                        <h5>nike airforce </h5>
+                        <p>ghc 130.00</p>
+                    </div>
+                </div>
+                <!-- end itsmabsolute -->
+            </div>
+            <!-- end itms -->
+        </div>
+        <!-- end margin --><!-- start margin -->
+        <div class="col-sm-3">
+            <!-- start itms -->
+            <div class="col-sm-12 itms ">
+                <img src="{% static 'img/products/10741489.jpg' %}" height="100%" width="100%" alt="logo">
+                <!-- start itsmabsolute -->
+                <div class="itsmabsolute">
+                    <div class="itsmabsolutesub">
+                        <h5>nike airforce </h5>
+                        <p>ghc 130.00</p>
+                    </div>
+                </div>
+                <!-- end itsmabsolute -->
+            </div>
+            <!-- end itms -->
+        </div>
+        <!-- end margin --><!-- start margin -->
+        <div class="col-sm-3">
+            <!-- start itms -->
+            <div class="col-sm-12 itms ">
+                <img src="{% static 'img/products/10741489.jpg' %}" height="100%" width="100%" alt="logo">
+                <!-- start itsmabsolute -->
+                <div class="itsmabsolute">
+                    <div class="itsmabsolutesub">
+                        <h5>nike airforce </h5>
+                        <p>ghc 130.00</p>
+                    </div>
+                </div>
+                <!-- end itsmabsolute -->
+            </div>
+            <!-- end itms -->
+        </div>
+        <!-- end margin --><!-- start margin -->
+        <div class="col-sm-3">
+            <!-- start itms -->
+            <div class="col-sm-12 itms ">
+                <img src="{% static 'img/products/10741489.jpg' %}" height="100%" width="100%" alt="logo">
+                <!-- start itsmabsolute -->
+                <div class="itsmabsolute">
+                    <div class="itsmabsolutesub">
+                        <h5>nike airforce </h5>
+                        <p>ghc 130.00</p>
+                    </div>
+                </div>
+                <!-- end itsmabsolute -->
+            </div>
+            <!-- end itms -->
+        </div>
+        <!-- end margin --><!-- start margin -->
+        <div class="col-sm-3">
+            <!-- start itms -->
+            <div class="col-sm-12 itms ">
+                <img src="{% static 'img/products/10741489.jpg' %}" height="100%" width="100%" alt="logo">
+                <!-- start itsmabsolute -->
+                <div class="itsmabsolute">
+                    <div class="itsmabsolutesub">
+                        <h5>nike airforce </h5>
+                        <p>ghc 130.00</p>
+                    </div>
+                </div>
+                <!-- end itsmabsolute -->
+            </div>
+            <!-- end itms -->
+        </div>
+        <!-- end margin --><!-- start margin -->
+        <div class="col-sm-3">
+            <!-- start itms -->
+            <div class="col-sm-12 itms ">
+                <img src="{% static 'img/products/10741489.jpg' %}" height="100%" width="100%" alt="logo">
+                <!-- start itsmabsolute -->
+                <div class="itsmabsolute">
+                    <div class="itsmabsolutesub">
+                        <h5>nike airforce </h5>
+                        <p>ghc 130.00</p>
+                    </div>
+                </div>
+                <!-- end itsmabsolute -->
+            </div>
+            <!-- end itms -->
+        </div>
+        <!-- end margin --><!-- start margin -->
+        <div class="col-sm-3">
+            <!-- start itms -->
+            <div class="col-sm-12 itms ">
+                <img src="{% static 'img/products/10741489.jpg' %}" height="100%" width="100%" alt="logo">
+                <!-- start itsmabsolute -->
+                <div class="itsmabsolute">
+                    <div class="itsmabsolutesub">
+                        <h5>nike airforce </h5>
+                        <p>ghc 130.00</p>
+                    </div>
+                </div>
+                <!-- end itsmabsolute -->
+            </div>
+            <!-- end itms -->
+        </div>
+        <!-- end margin -->
+        <!-- start margin -->
+        <div class="col-sm-3">
+            <!-- start itms -->
+            <div class="col-sm-12 itms ">
+                <img src="{% static 'img/products/10741489.jpg' %}" height="100%" width="100%" alt="logo">
+                <!-- start itsmabsolute -->
+                <div class="itsmabsolute">
+                    <div class="itsmabsolutesub">
+                        <h5>nike airforce </h5>
+                        <p>ghc 130.00</p>
+                    </div>
+                </div>
+                <!-- end itsmabsolute -->
+            </div>
+            <!-- end itms -->
+        </div>
+        <!-- end margin -->
+        <!-- start margin -->
+        <div class="col-sm-3">
+            <!-- start itms -->
+            <div class="col-sm-12 itms ">
+                <img src="{% static 'img/products/10741489.jpg' %}" height="100%" width="100%" alt="logo">
+                <!-- start itsmabsolute -->
+                <div class="itsmabsolute">
+                    <div class="itsmabsolutesub">
+                        <h5>nike airforce </h5>
+                        <p>ghc 130.00</p>
+                    </div>
+                </div>
+                <!-- end itsmabsolute -->
+            </div>
+            <!-- end itms -->
+        </div>
+        <!-- end margin -->
+        <!-- start margin -->
+        <div class="col-sm-3">
+            <!-- start itms -->
+            <div class="col-sm-12 itms ">
+                <img src="{% static 'img/products/10741489.jpg' %}" height="100%" width="100%" alt="logo">
+                <!-- start itsmabsolute -->
+                <div class="itsmabsolute">
+                    <div class="itsmabsolutesub">
+                        <h5>nike airforce </h5>
+                        <p>ghc 130.00</p>
+                    </div>
+                </div>
+                <!-- end itsmabsolute -->
+            </div>
+            <!-- end itms -->
+        </div>
+        <!-- end margin -->
+        <!-- start margin -->
+        <div class="col-sm-3">
+            <!-- start itms -->
+            <div class="col-sm-12 itms ">
+                <img src="{% static 'img/products/10741489.jpg' %}" height="100%" width="100%" alt="logo">
+                <!-- start itsmabsolute -->
+                <div class="itsmabsolute">
+                    <div class="itsmabsolutesub">
+                        <h5>nike airforce </h5>
+                        <p>ghc 130.00</p>
+                    </div>
+                </div>
+                <!-- end itsmabsolute -->
+            </div>
+            <!-- end itms -->
+        </div>
+        <!-- end margin -->
+            
+        </div>
+      
+    </div>
+    <!-- end shoplistitems -->
+</div>
+<!-- end shoplist -->
+
+<div class="col-sm-10 shopgallery">
+    <!--start producttext-->
+    <div class="col-sm-12 producttext">
+        <p>popular items in the market</p>
+        <h2>trending products</h2>
+    </div>
+    <!--end producttext-->
+
+<div class="col-sm-12 gallleryitems">
+    <!-- start row -->
+    <div class="row">
+    <!--start shopitem1-->
+    <div class="col-sm-3 gsub">
+<div class="col-sm-12 gallerysubcontainer ">
+<!-- start sub -->
+<div class="row gallerysubrow ">
+<div class="col-sm-6 gallerysubimg">
+<img src="{% static 'img/products/Nike-LeBron-15-University-Red-White-Mens-Basketball-Shoes-680x454.jpeg' %}" height="100%" width="100%" alt="logo">
+</div>
+<div class="col-sm-6 gallerysub">
+    <h6>Nike LeBron</h6>
+    <p>₵ 100.00</p>
+</div>
+</div>
+<!-- end sub -->
+<!-- start sub -->
+<div class="row gallerysubrow ">
+    <div class="col-sm-6 gallerysubimg">
+        <img src="{% static 'img/products/1635294044-AL0A5484662-HERO.jpg' %}" height="100%" width="100%" alt="logo">
+    </div>
+    <div class="col-sm-6 gallerysub">
+    <h6>reebok shoe</h6>
+    <p>₵ 130.00</p>
+</div>
+</div>
+<!-- end sub -->
+<!-- start sub -->
+<div class="row gallerysubrow ">
+    <div class="col-sm-6 gallerysubimg">
+        <img src="{% static 'img/products/945-9457426_sneakers-png-photo-nike-shoes-com-2018-new.png' %}" height="100%" width="100%" alt="logo">
+    </div>
+    <div class="col-sm-6 gallerysub">
+    <h6>nike airforce</h6>
+    <p>₵ 90.00</p>
+</div>
+</div>
+<!-- end sub -->
+</div>
+</div>
+<!-- end shopitem1 -->
+<!--start shopitem2-->
+<div class="col-sm-3 gsub">
+    <div class="col-sm-12 gallerysubcontainer ">
+        <!-- start sub -->
+        <div class="row gallerysubrow ">
+            <div class="col-sm-6 gallerysubimg">
+                <img src="{% static 'img/products/depositphotos_67585779-stock-photo-white-hoodie-design.jpg' %}" height="100%" width="100%" alt="logo">
+            </div>
+            <div class="col-sm-6 gallerysub">
+                <h6>hoodie white</h6>
+                <p>₵ 130.00</p>
+            </div>
+        </div>
+        <!-- end sub -->
+        <!-- start sub -->
+        <div class="row gallerysubrow ">
+            <div class="col-sm-6 gallerysubimg">
+                <img src="{% static 'img/products/depositphotos_67585177-stock-photo-black-hoodie-design.jpg' %}" height="100%" width="100%" alt="logo">
+            </div>
+            <div class="col-sm-6 gallerysub">
+                <h6>hoodie black</h6>
+                <p>₵ 130.00</p>
+            </div>
+        </div>
+        <!-- end sub -->
+        <!-- start sub -->
+        <div class="row gallerysubrow ">
+            <div class="col-sm-6 gallerysubimg">
+                <img src="{% static 'img/products/depositphotos_67585861-stock-photo-blue-hoodie-design.jpg' %}" height="100%" width="100%" alt="logo">
+            </div>
+            <div class="col-sm-6 gallerysub">
+                <h6>hoodie blue</h6>
+                <p>₵ 130.00</p>
+            </div>
+        </div>
+        <!-- end sub -->
+    </div>
+</div>
+<!-- end shopitem2 -->
+<!--start shopitem3-->
+<div class="col-sm-3 gsub">
+    <div class="col-sm-12 gallerysubcontainer ">
+        <!-- start sub -->
+        <div class="row gallerysubrow ">
+            <div class="col-sm-6 gallerysubimg">
+                <img src="{% static 'img/products/20531242.jpg' %}" height="100%" width="100%" alt="logo">
+            </div>
+            <div class="col-sm-6 gallerysub">
+                <h6>classic watch</h6>
+                <p>₵ 1300.00</p>
+            </div>
+        </div>
+        <!-- end sub -->
+        <!-- start sub -->
+        <div class="row gallerysubrow ">
+            <div class="col-sm-6 gallerysubimg">
+                <img src="{% static 'img/products/wp2168288.jpg' %}" height="100%" width="100%" alt="logo">
+            </div>
+            <div class="col-sm-6 gallerysub">
+                <h6>italian watch</h6>
+                <p>₵ 780.00</p>
+            </div>
+        </div>
+        <!-- end sub -->
+        <!-- start sub -->
+        <div class="row gallerysubrow ">
+            <div class="col-sm-6 gallerysubimg">
+                <img src="{% static 'img/products/istockphoto-180844253-170667a.jpg' %}" height="100%" width="100%" alt="logo">
+            </div>
+            <div class="col-sm-6 gallerysub">
+                <h6>dinner watch</h6>
+                <p>₵ 1020.00</p>
+            </div>
+        </div>
+        <!-- end sub -->
+    </div>
+</div>
+<!-- end shopitem3 -->
+<!--start shopitem4-->
+<div class="col-sm-3 gsub">
+    <div class="col-sm-12 gallerysubcontainer ">
+        <!-- start sub -->
+        <div class="row gallerysubrow ">
+            <div class="col-sm-6 gallerysubimg">
+                <img src="{% static 'img/products/istockphoto-932170554-612x612.jpg' %}" height="100%" width="100%" alt="logo">
+            </div>
+            <div class="col-sm-6 gallerysub">
+                <h6>white shirt </h6>
+                <p>₵ 30.00</p>
+            </div>
+        </div>
+        <!-- end sub -->
+        <!-- start sub -->
+        <div class="row gallerysubrow ">
+            <div class="col-sm-6 gallerysubimg">
+                <img src="{% static 'img/products/istockphoto-932170474-612x612.jpg' %}" height="100%" width="100%" alt="logo">
+            </div>
+            <div class="col-sm-6 gallerysub">
+                <h6>black shirt</h6>
+                <p>₵ 10.00</p>
+            </div>
+        </div>
+        <!-- end sub -->
+        <!-- start sub -->
+        <div class="row gallerysubrow ">
+            <div class="col-sm-6 gallerysubimg">
+                <img src="{% static 'img/products/maxresdefault.jpg' %}" height="100%" width="100%" alt="logo">
+            </div>
+            <div class="col-sm-6 gallerysub">
+                <h6>shirt</h6>
+                <p>₵ 90.00</p>
+            </div>
+        </div>
+        <!-- end sub -->
+    </div>
+</div>
+<!-- end shopitem4 -->
+</div>
+<!-- end row -->
+</div>
+</div>
+
+
 
 </div>
 <!--end main-->

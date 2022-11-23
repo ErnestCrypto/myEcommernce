@@ -17,11 +17,10 @@ body{
     overflow-y: scroll;
 
 }
-.container{
+.logincontainer{
  display:flex;
  align-items:center;
     justify-content:center;
-     min-height: 100vh;
 }
 
 .box{
@@ -315,6 +314,8 @@ nav{
    width: 100%;
    padding: 10%;
    background:white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
 }
 
 #navbarCollapse a{
@@ -651,7 +652,6 @@ z-index: 9;
 }
 .footersub{
 
-    /* height: 100vh; */
     background:#002347;
 }
 
@@ -814,13 +814,12 @@ color:rgba(0,0,0,0.5);
 
 .shopcontnent{
      height: 100vh;
-     /* background:blue; */
      margin: 0 auto;
     margin-top: 10%;
 }
 
 .shopitemsub1{
-    background:#4C5CED;
+    background:blue;
     padding: 3%;
 }
 
@@ -880,25 +879,314 @@ padding: 2%;
 
 }
 
+.card{
+    border: none !important;
+    background:blue;
+    height: 50vh;
 
+}
 
 
 .container {
+    position: relative !important;
     display: flex;
-    align-items: start !important;
-    justify-content: start !important;
-    min-height: inherit !important;
+    
+    justify-content: start !important; 
+    min-height: 70vh !important;
+    padding-bottom: 2% !important;
+
 }
+
+
+.card-body{
+    position:absolute;
+    background: rgba(0,0,0,0.3);
+    height: inherit ;
+    width:100%;
+    opacity:0;
+    transition: 0.4s ease-in-out;
+   
+}
+.card-body:hover{
+    opacity:1;
+
+}
+
+
+.card-item{
+        position: absolute;
+        left:0%;
+        bottom: 10%;
+    background: blue;
+    padding: 2% 8%;
+    text-align: center;
+}
+
+.card-item h5{
+    color:white;
+    text-transform: capitalize;
+}
+.card-item p{
+    color:white;
+    text-transform: capitalize;
+}
+
+
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
    width: 20px !important;
 }
 
 
+.shopgallery{
+    margin: 0 auto;
+    margin-bottom: 10%;
+}
+.gallerysub h6{
+ text-transform: capitalize;
+}
+.gallerysub p{
+    margin: 0 !important;
+    text-transform: capitalize;
+    color: rgba(0,0,0,0.6);
+    font-weight: 700;
+}
+.gallerysubimg img{
+border-radius: 15px;
+}
+
+.gallerysubcontainer{
+padding: 5%;
+border: 1px solid rgba(0,0,0,0.2);
+height: 80vh;
+}
+
+.gallerysubrow{
+        margin-top: 20% !important;
+
+    margin-bottom: 10%;
+
+}
+
+.myshoplist{
+    height:100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+
+.shoplistitems{
+    margin: 0 auto;
+}
+
+
+.itms{
+    position:relative;
+    height:35vh;
+    padding: 0 !important;
+    margin:2%;
+}
+
+.itsmabsolute{
+    position:absolute;
+    top:0;
+    background:rgba(0,0,0,0.3);
+    height:inherit;
+    width: 100%;
+    opacity:0;
+    transition: 0.4s ease-in-out;
+    
+}
+
+.itsmabsolute:hover{
+    opacity: 1;
+
+}
+
+
+.itsmabsolutesub{
+    position:absolute;
+    top:50%;
+    left:0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2%;
+    background:blue;
+}
+.itsmabsolutesub h5, .itsmabsolutesub p{
+    color: white !important;
+    text-transform: capitalize;
+
+}
+.orderstop{
+    height:20vh;
+}
+
 /* shoppage */
 
+/* orders.html */
+.orderbody{
+    margin: 0 auto;
+    padding-bottom: 5%;
+   
+}
+
+.ordertop{
+    height: 200vh;
+    overflow-y: scroll;
+}
 
 
+.ordersrowhearder{
+    background:blue;
+    padding: 1%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.ordersrowhearder h6{
+color: white !important;
+text-transform: capitalize;
+}
+
+
+.ordersearch{
+    background:white;
+    border-radius: 10px;
+display: flex;
+align-items: center;
+justify-content: end;     
+padding: 0px 5px;
+
+    
+}
+
+.ordersearch input{
+    border:none !important;
+    outline:none !important;
+     border-radius: 10px;
+     padding:5px;
+     width: 100%;
+     color: rgba(0,0,0,0.6);
+}
+
+
+.ordersrowbodycontainer{
+    margin: 10px 0px;
+}
+
+
+
+.ordersrowbodycontainer h6{
+text-transform: capitalize;
+color: #4C5CED !important;
+}
+
+.ordersrowitems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+padding:11px;
+}
+
+.orderdetails{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: yellow; */
+
+}
+
+.orderdetailsimg img{
+    border-radius: 10px;
+}
+.orderdetailstxt{
+    text-align: left;
+    padding:2%;
+    /* background:green; */
+}
+.orderdetailstxt p{
+    margin: 0 !important;
+    padding: 0 !important;
+    color: rgba(0,0,0,0.5);
+
+    font-size: 10px;
+    text-transform: capitalize;
+    font-weight: 600;
+
+}
+
+.ordertime{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.ordertime p{
+    color: #4C5CED;
+margin: 0% !important;
+     font-size: 13px;
+}
+.ordertime a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.3);
+     font-size: 13px;
+}
+/* orders.html */
+
+/* product_detail.html */
+.productdetail{
+    margin: 0 auto;
+    height: 200vh;
+    /* background:red; */
+    
+}
+.productrow{
+    /* background:blue; */
+    padding:0 !important;
+    margin: 0 !important;
+}
+
+.productdetailtxt{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    padding:50px 0px;
+}
+
+.productdetailtxtsub{
+    /* background:red; */
+    margin:0 auto;
+    height: 100vh;
+}
+.prodcut{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.proddescription{
+    border-top: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding: 30px 0px;
+
+}
+
+.productadd{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+   
+}
+
+
+
+/* product_detail.html */
 
 
 @media only screen and (max-width: 1200px){
@@ -1089,6 +1377,67 @@ left:0% !important;
 
 /* index.html */
 
+
+
+/* shoppage.html */
+.shopcontnent{
+    height: inherit;
+
+}
+
+.searchitem{
+    width: 70%;
+}
+.gsub{
+    width:25% !important;
+
+}
+
+.gallerysubcontainer{
+height: inherit ;
+border:none;
+}
+
+.gallleryitems{
+    padding:2%;
+}
+
+.gallerysubrow{
+    margin-bottom:50%;
+}
+
+.gallerysub h6{
+    font-size: 18px;
+
+}
+.gallerysub p{
+    font-size: 13px;
+}
+
+/* shoppage.html */
+
+/* orders.html */
+.orderstop{
+    height: 0vh;
+}
+
+.orderdetailsimg{
+    width: 30%;
+}
+
+.orderdetailstxt{
+    float: left;
+}
+.orderdetails{
+    width: 70%;
+    display:flex;
+    justify-content: start;
+}
+
+
+
+
+/* orders,.html */
 
 
 
