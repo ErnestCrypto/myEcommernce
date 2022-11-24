@@ -51,6 +51,10 @@ class ConfirmationView(TemplateView):
     template_name = 'confirmation.html'
 
 
+class CheckoutView(TemplateView):
+    template_name = 'checkout.html'
+
+
 
 
 
