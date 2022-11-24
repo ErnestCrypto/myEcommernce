@@ -1984,4 +1984,16 @@ margin: 2px;
 
 /* cart.html */
 
+/* confirmation.html */
+.conhd{
+    justify-content:space-between;
+    width: 40%;
+}
+.ips{
+    width: 60%;
+}
+/* confirmation.html */
+
+
+
 }
