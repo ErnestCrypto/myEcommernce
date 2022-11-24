@@ -43,7 +43,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'mysite.apps.MysiteConfig',
     'dashboard.apps.DashboardConfig',
-   
     'rest_framework',
 ]
 
