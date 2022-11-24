@@ -39,6 +39,13 @@ class ProductDetailView(TemplateView):
     template_name = 'product_detail.html'
 
 
+class ContactView(TemplateView):
+    template_name = 'contact.html'
+
+
+class CartView(TemplateView):
+    template_name = 'cart.html'
+
 
 
 

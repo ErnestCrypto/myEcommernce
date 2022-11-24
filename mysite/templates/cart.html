@@ -1,0 +1,186 @@
+{% extends 'nav.html' %}
+{% load static %}
+{% block content %}
+<!--start main-->
+<div class="col-sm-12 mainbody">
+    <!--start shopcontainer-->
+    <div class="shopcontainer">
+        <h1>shopping cart</h1>
+        <p>manage your cart</p>
+    </div>
+    <!--end shopcontainer-->
+   <!-- start cartbody -->
+   <div class="col-sm-10 cartbody">
+   <!-- start cartcontent -->
+   <div class="col-sm-12 cartcontent">
+    <!-- start group -->
+    <div class = "col-sm-12  cartgroup">
+    <!-- start cartcontent1 -->
+    <div class="col-sm-6 cartcontent1">
+        <h5>product</h5>
+    </div>
+    <!-- end cartcontent1 -->
+    <!-- start cartcontent2 -->
+    <div class="col-sm-6  cartcontent2">
+        <!-- start cartitem -->
+        <div class="col-sm-4">
+        <h5>price</h5>
+        </div>
+        <!-- end cartitem -->
+        <!-- start cartitem -->
+        <div class="col-sm-4">
+            <h5>quantity</h5>
+        </div>
+        <!-- end cartitem -->
+        <!-- start cartitem -->
+        <div class="col-sm-4">
+            <h5>total</h5>
+        </div>
+        <!-- end cartitem -->
+    </div>
+    <!-- end cartcontent2 -->
+    </div>
+    <!-- end group -->
+    <!-- start group -->
+    <div class="col-sm-12  cartgroup">
+        <!-- start cartcontent1 -->
+        <div class="col-sm-6 cartcontent1">
+            <div class="col-sm-3 cartitemimg">
+<img src="{% static 'img/products/photo-1606107557195-0e29a4b5b4aa (1).jpeg' %}" height="100%" width="100%"
+    alt="logo" />
+            </div>
+        <p>nike airforce</p>
+        </div>
+        <!-- end cartcontent1 -->
+        <!-- start cartcontent2 -->
+        <div class="col-sm-6  cartcontent2">
+            <!-- start cartitem -->
+            <div class="col-sm-4">
+                <p>ghc 130.00</p>
+            </div>
+            <!-- end cartitem -->
+            <!-- start cartitem -->
+            <div class="col-sm-4">
+               <div class=" cartcount">
+                <input type="text" name="count" id="count" value="1">
+<div class="cartbtn">
+    <button>+</button>
+    <button>-</button>
+
+</div>
+               </div>
+            </div>
+            <!-- end cartitem -->
+            <!-- start cartitem -->
+            <div class="col-sm-4">
+                <p>ghc 520.00</p>
+            </div>
+            <!-- end cartitem -->
+        </div>
+        <!-- end cartcontent2 -->
+    </div>
+    <!-- end group -->
+    <!-- start group -->
+    <div class="col-sm-12  cartgroup">
+        <!-- start cartcontent1 -->
+        <div class="col-sm-6 cartcontent1">
+            <div class="col-sm-3 cartitemimg">
+                <img src="{% static 'img/products/photo-1606107557195-0e29a4b5b4aa (1).jpeg' %}" height="100%" width="100%"
+                    alt="logo" />
+            </div>
+            <p>nike airforce</p>
+        </div>
+        <!-- end cartcontent1 -->
+        <!-- start cartcontent2 -->
+        <div class="col-sm-6  cartcontent2">
+            <!-- start cartitem -->
+            <div class="col-sm-4">
+                <p>ghc 130.00</p>
+            </div>
+            <!-- end cartitem -->
+            <!-- start cartitem -->
+            <div class="col-sm-4">
+                <div class=" cartcount">
+                    <input type="text" name="count" id="count" value="3">
+                    <div class="cartbtn">
+                        <button>+</button>
+                        <button>-</button>
+    
+                    </div>
+                </div>
+            </div>
+            <!-- end cartitem -->
+            <!-- start cartitem -->
+            <div class="col-sm-4">
+                <p>ghc 520.00</p>
+            </div>
+            <!-- end cartitem -->
+        </div>
+        <!-- end cartcontent2 -->
+    </div>
+    <!-- end group -->
+    <!-- start group -->
+    <div class="col-sm-12  cartgroup">
+        <!-- start cartcontent1 -->
+        <div class="col-sm-6 cartcontent1">
+            <div class="col-sm-3 cartitemimg">
+                <img src="{% static 'img/products/photo-1606107557195-0e29a4b5b4aa (1).jpeg' %}" height="100%" width="100%"
+                    alt="logo" />
+            </div>
+            <p>nike airforce</p>
+        </div>
+        <!-- end cartcontent1 -->
+        <!-- start cartcontent2 -->
+        <div class="col-sm-6  cartcontent2">
+            <!-- start cartitem -->
+            <div class="col-sm-4">
+                <p>ghc 130.00</p>
+            </div>
+            <!-- end cartitem -->
+            <!-- start cartitem -->
+            <div class="col-sm-4">
+                <div class=" cartcount">
+                    <input type="text" name="count" id="count" value="2">
+                    <div class="cartbtn">
+                        <button>+</button>
+                        <button>-</button>
+    
+                    </div>
+                </div>
+            </div>
+            <!-- end cartitem -->
+            <!-- start cartitem -->
+            <div class="col-sm-4">
+                <p>ghc 520.00</p>
+            </div>
+            <!-- end cartitem -->
+        </div>
+        <!-- end cartcontent2 -->
+    </div>
+    <!-- end group -->
+    
+   </div>
+   <!-- end cartcontent -->
+   <!-- start cartupdate -->
+   <div class="col-sm-12 cartupdate">
+    <a href="">update cart</a>
+   </div>
+   <!-- end cartupdate -->
+    <!-- start cartsubtotal -->
+    <div class="col-sm-12 cartsubtotal">
+        <!-- start subtotal -->
+        <div class="col-sm-4 subtotal">
+<p>subtotal</p>
+<p>ghc 2100.00</p>
+
+        </div>
+
+<!-- endsubtotal -->
+    </div>
+    <!-- end cartsubtotal -->
+   </div>
+   <!-- end cartbody--> 
+</div>
+<!--end main-->
+
+{% endblock %}

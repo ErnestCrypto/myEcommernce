@@ -143,6 +143,11 @@ letter-spacing:0.1em;
     z-index: 9;
 }
 
+.count a{
+    margin: 0 !important;
+    padding:0 !important;
+}
+
 
 .countabsolute{
     position:absolute;
@@ -1160,10 +1165,31 @@ margin: 0% !important;
 }
 
 .productdetailtxtsub{
-    /* background:red; */
     margin:0 auto;
     height: 100vh;
 }
+
+.productdetailtxtsub h4{
+text-transform: capitalize;
+}
+
+.productdetailtxtsub h5{
+text-transform: capitalize;
+color:#384aeb;
+}
+
+.prodcut{
+    margin: 15px 0px;
+}
+
+
+.prodcut p{
+    margin: 0 !important;
+    color: rgba(0,0,0,0.5);
+}
+
+
+
 .prodcut{
     display: flex;
     align-items: center;
@@ -1174,6 +1200,12 @@ margin: 0% !important;
     border-top: 1px solid rgba(0,0,0,0.1);
     border-bottom: 1px solid rgba(0,0,0,0.1);
     padding: 30px 0px;
+    margin-bottom: 5%;
+
+}
+
+.proddescription p{
+    color: rgba(0,0,0,0.5);
 
 }
 
@@ -1181,12 +1213,263 @@ margin: 0% !important;
     display: flex;
     align-items: center;
     justify-content:space-between;
-   
+   margin: 0 auto;
+   margin-bottom: 15%;
 }
 
 
+.productadd p{
+    color: rgba(0,0,0,0.5);
+    text-transform: capitalize;
+margin: 0 !important;
+}
+
+.productadd input{
+    text-align: center;
+    width: 50%;
+    border: 1px solid rgba(0,0,0,0.3);
+    outline: none;
+    color: rgba(0,0,0,0.5);
+    border-radius:5px;
+
+}
+
+.productadd button{
+    border:none;
+    outline: none;
+    background: rgba(0,0,0,0.3);
+    border: 1px solid rgba(0,0,0,0.3);
+    padding: 1% 5%;
+    font-size: 24px;
+    border-radius: 13px;
+    color: white;
+}
+
+.productadd button:hover{
+    background-color:white;
+    color:rgba(0,0,0,0.3);
+}
+
+
+.productadd a{
+    text-decoration: none;
+    padding: 3% 8%;
+    background:#384aeb;
+    color:white;
+    border-radius: 33px;
+text-transform:capitalize;
+border: 1px solid #384aeb;
+}
+
+.productadd a:active,.productadd a:hover{
+    color:#384aeb;
+    background:white;
+
+}
+
+.productimg {
+margin: 0 !important;
+padding: 0 !important;
+}
 
 /* product_detail.html */
+
+
+/* contact.html */
+.contactcontent{
+    margin: 0 auto;
+    padding-bottom: 20%;
+}
+.contactmap{
+    margin: 0 !important;
+    margin-top: 10% !important;
+}
+.contactitems{
+    margin: 0 !important;
+    padding-top: 10%;
+    
+}
+.contactlocationsub{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom: 5%;
+}
+.contacttxt h5{
+text-transform: capitalize;
+margin: 0 !important;
+}
+
+.contacttxt p{
+text-transform: capitalize;
+margin: 0 !important;
+color: rgba(0,0,0,0.5);
+}
+
+.contactdetails input{
+margin: 2%;
+width: 100%;
+border:none;
+outline: none;
+background:#F2F3F7;
+padding: 3%;
+color: rgba(0,0,0,0.4);
+font-size: 15px;
+}
+
+.contactmessage textarea {
+   margin: 2%;
+width: 100%;
+border:none;
+outline: none;
+background:#F2F3F7;
+padding: 3%;
+color: rgba(0,0,0,0.4); 
+font-size: 15px;
+
+}
+.contactbutton{
+    display:flex;
+    justify-content:end;
+    align-items:center
+}
+
+.contactbutton button{
+    border:1px solid #4C5CED;
+    padding: 1%;
+    color: white;
+    background:#4C5CED;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.contactbutton button:hover{
+    color: black;
+    background: white;
+}
+
+/* contact.html */
+
+
+/* cart.html */
+.cartbody{
+    margin: 0 auto;
+    padding: 5% 0%;
+    /* background: blue; */
+
+}
+.cartcontent{
+    /* background: red; */
+}
+
+.cartgroup{
+    display: flex;
+    justify-content:space-between;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  padding: 3%;
+}
+.cartupdate{
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  padding: 3%;
+
+}
+
+.cartupdate a{
+    text-decoration: none;
+    padding:1% 2%;
+    background:#4C5CED;
+    border-radius: 32px;
+    color:white;
+    border: 1px solid #4C5CED;
+    text-transform: capitalize;
+
+}
+
+.cartupdate a:hover{
+    background:white;
+    color:#4C5CED;
+}
+
+.cartsubtotal{
+     border-bottom: 1px solid rgba(0,0,0,0.1);
+  padding: 3%;
+  display:flex;
+  justify-content:end;
+  align-items: center;
+}
+
+.subtotal{
+     display:flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.subtotal p{
+text-transform: capitalize;
+font-weight: 600;
+}
+.cartcontent2,.cartcontent1{
+  display: flex;
+    justify-content:start;  
+    align-items: center; 
+}
+
+.cartitemimg{
+    padding:3%;
+}
+
+.cartcontent1 p{
+    text-transform: capitalize;
+    color:rgba(0,0,0,0.7);
+}
+.cartcontent2 p{
+     text-transform: capitalize;
+    color:rgba(0,0,0,0.7);
+    font-weight: 600;
+}
+
+.cartcontent1 h5,.cartcontent2 h5{
+    text-transform: capitalize;
+    font-size: 16px;
+
+}
+.cartcount input{
+    width: 50%;
+    text-align: center;
+     outline: none;
+    border:none;
+} 
+.cartcount{
+    border: 1px solid rgba(0,0,0,0.1);
+        width: 50%;
+        display: flex;
+    justify-content:space-between;  
+    align-items: center; 
+
+}
+
+.cartbtn{
+      display: flex;
+    justify-content:space-between;  
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+
+}
+
+.cartbtn button{
+    padding: 3px;
+    font-size: 13px;
+    font-weight: bold;
+    width: 100%;
+    border:1px solid rgba(0,0,0,0.1);
+    background:white;
+    outline: none;
+
+}
+
+
+/* cart.html */
+
 
 
 @media only screen and (max-width: 1200px){
@@ -1439,6 +1722,26 @@ border:none;
 
 /* orders,.html */
 
+/* contact.html */
+.contactlocationsub{
+    justify-content: start;
+}
+.contactdetails input{
+margin: 2% 0%;
+
+}
+
+.contactmessage textarea {
+margin: 2% 0%;
+
+}
+.contactbutton button{
+padding: 3%;
+margin: 0% 2%;
+
+
+}
+/* contact.html */
 
 
 

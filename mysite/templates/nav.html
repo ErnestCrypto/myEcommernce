@@ -29,13 +29,15 @@
         <a href="{% url 'mysiteUrls:indexPage' %}" class="nav-item nav-link active">Home </a>
                         <a href="{% url 'mysiteUrls:shopPage' %}" class="nav-item nav-link " >Shop</a>
                         <a href="{% url 'mysiteUrls:ordersPage' %}" class="nav-item nav-link">Orders</a>
-                        <a href="{% url 'mysiteUrls:ordersPage' %}" class="nav-item nav-link " >Contact</a>
+                        <a href="{% url 'mysiteUrls:contactPage' %}" class="nav-item nav-link " >Contact</a>
                             
                 
                     </div>
                     <div class="navbar-nav ms-auto">
                         <div class="count">
+                <a href="{% url 'mysiteUrls:cartPage' %}">
             <img src="{% static 'img/shopping_cart_32px.png' %}" height="28" alt="logo">
+            </a>
 <!-- start count absolute -->
             <div class="countabsolute">
 8
@@ -92,7 +94,7 @@ customers in locating their products</p>
                 <a href="{% url 'mysiteUrls:indexPage' %}" >Home </a>
                 <a href="{% url 'mysiteUrls:shopPage' %}" >Shop</a>
                 <a href="{% url 'mysiteUrls:ordersPage' %}">orders</a>
-                <a href="{% url 'mysiteUrls:shopPage' %}">contact</a>
+                <a href="{% url 'mysiteUrls:contactPage' %}">contact</a>
 
                     
                 </div>
