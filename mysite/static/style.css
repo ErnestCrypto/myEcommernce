@@ -1806,6 +1806,46 @@ margin: 0% 2%;
 /* contact.html */
 
 /* cart.html */
+.cartcontent1{
+text-align: start;
+padding: 0 !important;
+}
+.cartgroup{
+    flex-direction: column;
+}
+
+.cartcontent2{
+    justify-content:space-between;
+}
+.pi{
+    width: 70%;
+    text-align: center;
+}
+
+.cartcount input{
+    width: 100%;
+}
+
+.cartcount{
+    width: 100%;
+}
+.cartitemimg{
+    width: 30%;
+
+}
+
+.cartlast a{
+padding: 2px 44px;
+font-size: 16px;
+margin: 2px;
+
+}
+.subtotal{
+  
+    width: 100%;
+   
+}
+
 /* cart.html */
 
 }
