@@ -40,7 +40,7 @@
     <!-- start ordertime -->
     <div class="ordertime">
         <p>3:30 am</p>
-        <a href="">view details</a>
+        <a href="{% url 'mysiteUrls:confirmationPage' %}">view details</a>
     </div>
     <!-- end ordertime -->
    </div>
@@ -338,6 +338,190 @@
 
 </div>           
 <!-- end orderbody -->
+<!-- start shop gallary -->
+<div class="col-sm-10 shopgallery">
+    <!--start producttext-->
+    <div class="col-sm-12 producttext">
+        <p>popular items in the market</p>
+        <h2>trending products</h2>
+    </div>
+    <!--end producttext-->
+
+    <div class="col-sm-12 gallleryitems">
+        <!-- start row -->
+        <div class="row">
+            <!--start shopitem1-->
+            <div class="col-sm-3 gsub">
+                <div class="col-sm-12 gallerysubcontainer ">
+                    <!-- start sub -->
+                    <div class="row gallerysubrow ">
+                        <div class="col-sm-6 gallerysubimg">
+                            <img src="{% static 'img/products/Nike-LeBron-15-University-Red-White-Mens-Basketball-Shoes-680x454.jpeg' %}"
+                                height="100%" width="100%" alt="logo">
+                        </div>
+                        <div class="col-sm-6 gallerysub">
+                            <h6>Nike LeBron</h6>
+                            <p>₵ 100.00</p>
+                        </div>
+                    </div>
+                    <!-- end sub -->
+                    <!-- start sub -->
+                    <div class="row gallerysubrow ">
+                        <div class="col-sm-6 gallerysubimg">
+                            <img src="{% static 'img/products/1635294044-AL0A5484662-HERO.jpg' %}" height="100%"
+                                width="100%" alt="logo">
+                        </div>
+                        <div class="col-sm-6 gallerysub">
+                            <h6>reebok shoe</h6>
+                            <p>₵ 130.00</p>
+                        </div>
+                    </div>
+                    <!-- end sub -->
+                    <!-- start sub -->
+                    <div class="row gallerysubrow ">
+                        <div class="col-sm-6 gallerysubimg">
+                            <img src="{% static 'img/products/945-9457426_sneakers-png-photo-nike-shoes-com-2018-new.png' %}"
+                                height="100%" width="100%" alt="logo">
+                        </div>
+                        <div class="col-sm-6 gallerysub">
+                            <h6>nike airforce</h6>
+                            <p>₵ 90.00</p>
+                        </div>
+                    </div>
+                    <!-- end sub -->
+                </div>
+            </div>
+            <!-- end shopitem1 -->
+            <!--start shopitem2-->
+            <div class="col-sm-3 gsub">
+                <div class="col-sm-12 gallerysubcontainer ">
+                    <!-- start sub -->
+                    <div class="row gallerysubrow ">
+                        <div class="col-sm-6 gallerysubimg">
+                            <img src="{% static 'img/products/depositphotos_67585779-stock-photo-white-hoodie-design.jpg' %}"
+                                height="100%" width="100%" alt="logo">
+                        </div>
+                        <div class="col-sm-6 gallerysub">
+                            <h6>hoodie white</h6>
+                            <p>₵ 130.00</p>
+                        </div>
+                    </div>
+                    <!-- end sub -->
+                    <!-- start sub -->
+                    <div class="row gallerysubrow ">
+                        <div class="col-sm-6 gallerysubimg">
+                            <img src="{% static 'img/products/depositphotos_67585177-stock-photo-black-hoodie-design.jpg' %}"
+                                height="100%" width="100%" alt="logo">
+                        </div>
+                        <div class="col-sm-6 gallerysub">
+                            <h6>hoodie black</h6>
+                            <p>₵ 130.00</p>
+                        </div>
+                    </div>
+                    <!-- end sub -->
+                    <!-- start sub -->
+                    <div class="row gallerysubrow ">
+                        <div class="col-sm-6 gallerysubimg">
+                            <img src="{% static 'img/products/depositphotos_67585861-stock-photo-blue-hoodie-design.jpg' %}"
+                                height="100%" width="100%" alt="logo">
+                        </div>
+                        <div class="col-sm-6 gallerysub">
+                            <h6>hoodie blue</h6>
+                            <p>₵ 130.00</p>
+                        </div>
+                    </div>
+                    <!-- end sub -->
+                </div>
+            </div>
+            <!-- end shopitem2 -->
+            <!--start shopitem3-->
+            <div class="col-sm-3 gsub">
+                <div class="col-sm-12 gallerysubcontainer ">
+                    <!-- start sub -->
+                    <div class="row gallerysubrow ">
+                        <div class="col-sm-6 gallerysubimg">
+                            <img src="{% static 'img/products/20531242.jpg' %}" height="100%" width="100%" alt="logo">
+                        </div>
+                        <div class="col-sm-6 gallerysub">
+                            <h6>classic watch</h6>
+                            <p>₵ 1300.00</p>
+                        </div>
+                    </div>
+                    <!-- end sub -->
+                    <!-- start sub -->
+                    <div class="row gallerysubrow ">
+                        <div class="col-sm-6 gallerysubimg">
+                            <img src="{% static 'img/products/wp2168288.jpg' %}" height="100%" width="100%" alt="logo">
+                        </div>
+                        <div class="col-sm-6 gallerysub">
+                            <h6>italian watch</h6>
+                            <p>₵ 780.00</p>
+                        </div>
+                    </div>
+                    <!-- end sub -->
+                    <!-- start sub -->
+                    <div class="row gallerysubrow ">
+                        <div class="col-sm-6 gallerysubimg">
+                            <img src="{% static 'img/products/istockphoto-180844253-170667a.jpg' %}" height="100%"
+                                width="100%" alt="logo">
+                        </div>
+                        <div class="col-sm-6 gallerysub">
+                            <h6>dinner watch</h6>
+                            <p>₵ 1020.00</p>
+                        </div>
+                    </div>
+                    <!-- end sub -->
+                </div>
+            </div>
+            <!-- end shopitem3 -->
+            <!--start shopitem4-->
+            <div class="col-sm-3 gsub">
+                <div class="col-sm-12 gallerysubcontainer ">
+                    <!-- start sub -->
+                    <div class="row gallerysubrow ">
+                        <div class="col-sm-6 gallerysubimg">
+                            <img src="{% static 'img/products/istockphoto-932170554-612x612.jpg' %}" height="100%"
+                                width="100%" alt="logo">
+                        </div>
+                        <div class="col-sm-6 gallerysub">
+                            <h6>white shirt </h6>
+                            <p>₵ 30.00</p>
+                        </div>
+                    </div>
+                    <!-- end sub -->
+                    <!-- start sub -->
+                    <div class="row gallerysubrow ">
+                        <div class="col-sm-6 gallerysubimg">
+                            <img src="{% static 'img/products/istockphoto-932170474-612x612.jpg' %}" height="100%"
+                                width="100%" alt="logo">
+                        </div>
+                        <div class="col-sm-6 gallerysub">
+                            <h6>black shirt</h6>
+                            <p>₵ 10.00</p>
+                        </div>
+                    </div>
+                    <!-- end sub -->
+                    <!-- start sub -->
+                    <div class="row gallerysubrow ">
+                        <div class="col-sm-6 gallerysubimg">
+                            <img src="{% static 'img/products/maxresdefault.jpg' %}" height="100%" width="100%"
+                                alt="logo">
+                        </div>
+                        <div class="col-sm-6 gallerysub">
+                            <h6>shirt</h6>
+                            <p>₵ 90.00</p>
+                        </div>
+                    </div>
+                    <!-- end sub -->
+                </div>
+            </div>
+            <!-- end shopitem4 -->
+        </div>
+        <!-- end row -->
+    </div>
+</div>
+
+<!-- end shopgallary -->
 </div>
 <!--end main-->
 

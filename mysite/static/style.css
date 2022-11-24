@@ -1530,9 +1530,145 @@ border: 1px solid #384AEB;
 }
 
 
+
+
 /* cart.html */
 
+/* confirmation.html */
+.confirmbody{
+    margin: 0 auto;
+    padding-top:3%;
+}
+.confirmtxt{
+    text-align:center;
+    padding:5%;
 
+}
+.confirmtxt p{
+   color:#384aeb;
+   text-transform:capitalize;
+}
+.orderbox{
+    margin-bottom: 3%;
+}
+
+.orderboxitems{
+    background:#F1F6F7;
+    padding: 10%;
+}
+.itemshed{
+    padding-bottom: 3%;
+}
+.itemshed h5{
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.itemshedbody{
+    display:flex;
+    align-items: center;
+    justify-content:start;
+}
+
+
+.itemshedbody p{
+    text-transform: capitalize;
+    font-size: 15px;
+    margin: 2px !important;
+}
+
+.itemshedbody p:nth-child(1){
+    color: rgba(0,0,0,0.5);
+    width:60%;
+}
+
+.orderconfirmbd{
+    background: #E5ECEE;
+    padding: 3%;
+    margin-bottom: 10%;
+}
+.orderconfirmbdhead{
+    padding: 1% 0%;
+    border-bottom:1px solid rgba(0,0,0,0.1);
+
+}
+.orderconfirmbdhead h5{
+    text-transform: capitalize;
+}
+
+.orderconhd{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+     padding: 1% 0%;
+    border-bottom:1px solid rgba(0,0,0,0.1);
+
+}
+.orderconhdsub{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+     padding: 1% 0%;
+
+}
+.conhd{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.orderconhd h6{
+    text-transform:capitalize;
+    font-size: 15px;
+    font-weight:400;
+}
+
+.orderconhdsub p{
+    text-transform:capitalize;
+    font-size: 15px;
+    font-weight:400;
+        color: rgba(0,0,0,0.5);
+
+}
+.conhd2 p{
+     text-transform:capitalize;
+    font-size: 15px;
+    font-weight:400;
+        color: rgba(0,0,0,0.5);
+}
+
+.conhd p:nth-child(1){
+color: black;
+    font-weight:400;
+
+}
+.orderconhdsub2{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+     padding: 1% 0%;
+}
+
+.orderconhdsub3{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+     padding: 1% 0%;
+
+}
+.orderconhd3hed{
+    border-top:1px solid rgba(0,0,0,0.1);
+
+}
+
+.orderconhdsub2 h5{
+     text-transform:uppercase;
+    font-size: 15px;
+
+
+}
+
+/* confirmation.html */
 
 @media only screen and (max-width: 1200px){
  

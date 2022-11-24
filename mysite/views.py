@@ -47,6 +47,10 @@ class CartView(TemplateView):
     template_name = 'cart.html'
 
 
+class ConfirmationView(TemplateView):
+    template_name = 'confirmation.html'
+
+
 
 
 
