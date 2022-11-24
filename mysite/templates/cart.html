@@ -169,7 +169,7 @@
     <!-- start cartsubtotal -->
     <div class="col-sm-12 cartsubtotal">
         <!-- start subtotal -->
-        <div class="col-sm-4 subtotal">
+        <div class="col-sm-6 subtotal">
 <p>subtotal</p>
 <p>ghc 2100.00</p>
 
@@ -178,6 +178,31 @@
 <!-- endsubtotal -->
     </div>
     <!-- end cartsubtotal -->
+    <!-- start cartsubtotal -->
+    <div class="col-sm-12 cartsubtotal">
+        <!-- start subtotal -->
+        <div class="col-sm-6 subtotal">
+            <p>delivery:</p>
+            <div class="col-sm-9 delivery">
+            <p>fee : ghc 22.00</p>
+            <input type="text" name="city" placeholder="Please enter your city">
+            <input type="text" name="location" placeholder="Please enter your location">
+            <input type="text" name="address" placeholder="please enter your postal address">
+        <a href="">save</a>   
+        </div>
+    
+        </div>
+    
+        <!-- endsubtotal -->
+    </div>
+    <!-- end cartsubtotal -->
+    <!-- start cartupdate -->
+    <div class="col-sm-12 cartlast">
+        <a href="{% url 'mysiteUrls:shopPage' %}">continue shopping</a>
+        <a href=""> proceed to checkout</a>
+    </div>
+    <!-- end cartupdate -->
+    
    </div>
    <!-- end cartbody--> 
 </div>
