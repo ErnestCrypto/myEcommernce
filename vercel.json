@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
         {
-            "src": "myEcommerce/wsgi.py",
+            "src": "myEcommernce/wsgi.py",
             "use": "@vercel/python",
             "config": {
                 "maxLambdaSize": "15mb",
@@ -24,7 +24,7 @@
         },
         {
             "src": "/(.*)",
-            "dest": "myEcommerce/wsgi.py"
+            "dest": "myEcommernce/wsgi.py"
         }
     ]
 }
