@@ -1307,8 +1307,19 @@ padding: 0 !important;
     display:none;
 }
 .productsection1,.productsection2{
+    animation: 1s anime linear;
 transition:0.8s ease-in-out;
 }
+
+@keyframes anime{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
 .productsection1 p{
     color:rgba(0,0,0,0.5);
 }
