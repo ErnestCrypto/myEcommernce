@@ -2073,7 +2073,16 @@ margin: 2px;
     width: 60%;
 }
 /* confirmation.html */
-
-
+/* product_details.html */
+.psub{
+   width:100%; 
+}
+.productdschead button{
+    margin: 5px;
+}
+.productdsc{
+    margin-top: 0;
+}
+/* product_details.html */
 
 }
