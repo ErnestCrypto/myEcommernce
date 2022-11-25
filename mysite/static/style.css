@@ -1303,8 +1303,11 @@ padding: 0 !important;
 .productdsbody{
     padding:2%;
 }
+.productsection2{
+    display:none;
+}
 .productsection1,.productsection2{
-transition:0.4s ease-in-out;
+transition:0.8s ease-in-out;
 }
 .productsection1 p{
     color:rgba(0,0,0,0.5);
