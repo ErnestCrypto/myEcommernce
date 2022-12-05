@@ -49,13 +49,13 @@
 <!-- start productadd -->
 <div class="col-sm-6 productadd">
     <p>quantity:</p>
-    <input type="text" name="quantity" value="1">
+    <input type="text" name="quantity" value="0" id="productquantity">
 </div>
 <!-- end productadd -->
 <div class="productadd">
-    <button>-</button>
-<a href="{% url 'mysiteUrls:cartPage' %}">add to cart</a>
-    <button>+</button>
+    <button id="productbtnminus">-</button>
+<a href="{% url 'mysiteUrls:cartPage' %}" id="addtocartbtn">add to cart</a>
+    <button id="productbtplus">+</button>
 
 </div>
 <!-- end productadd -->

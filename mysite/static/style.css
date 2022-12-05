@@ -162,7 +162,15 @@ letter-spacing:0.1em;
     width:70%;
 }
 
-
+.countabsolute input{
+    border:none;
+    outline:none;
+    background:none;
+    width:inherit;
+    text-align: center;
+    color:white;
+    pointer-events: none;
+}
 
 .loginleft{
  height: 520px;
