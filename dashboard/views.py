@@ -24,3 +24,7 @@ class ProductListView(TemplateView):
 
 class orderListView(TemplateView):
     template_name = 'order_list.html'
+
+
+class orderDetailsView(TemplateView):
+    template_name = 'order_details.html'

@@ -373,3 +373,98 @@ background:#046963;
     
 }
 /* order_list.html */
+
+/* order_details.html */
+.odate{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.ordate{
+    padding: 0 !important;
+    margin: 0 !important;
+    display:flex;
+    align-items: center;
+    justify-content:start;
+    
+}
+
+.ordate i{
+    margin: 0px 12px 0px 0px;
+}
+.ordate span{
+font-weight: 600 !important;
+}
+.odate span{
+    text-transform: capitalize;
+    color: rgba(0,0,0,0.4);
+    font-weight: bold;
+}
+
+.dsave a{
+    background-color: #046963;
+    text-transform: capitalize;
+    color:white;
+    padding: 8px 22px;
+    border: 2px solid #046963;
+    border-radius: 5px;
+    transition: 0.4s ease-in-out;
+}
+.dsave a:hover{
+    color:#046963;
+    background:white;
+
+}
+.ordmid{
+    display: flex;
+    justify-content: space-between;
+}
+.ordmidbox{
+    display: flex;
+    justify-content: start;
+}
+
+.ordmid{
+    padding: 12px ;
+    margin: 0 auto;
+
+}
+.ordmidbox p{
+    text-transform: capitalize;
+    margin: 0 !important;
+    color: rgba(0,0,0,0.5);
+}
+
+.ordmidbox h5{
+    text-transform: capitalize;
+
+}
+.ordmidbox span{
+        background:#CEE6E4;
+        display:flex;
+        align-items: center;
+        justify-content:center;
+    margin: 0px 12px;
+border-radius:50% ;
+width: 100%;
+    width: 48px;
+    height: 48px;
+
+
+}
+.ordmidbox i{
+    color:#088178;
+}
+/* order_details.html */
+
+
+
+
+
+
+
+
+
+
+
+
+

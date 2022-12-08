@@ -1,0 +1,83 @@
+{% extends 'dashboard_base.html' %}
+{% load static %}
+{% block content %}
+                            <!-- Main-body start -->
+                            <div class="main-body">
+                                <!-- start product-container -->
+                               <div class="product-container col-sm-12">
+                                <!-- start product-wrapper -->
+                                <div class="product-wrapper col-sm-12">
+                                    <div class="row">
+                                        <!-- start product-head -->
+                                        <div class="product-head col-sm-12">
+                                            <h1>order detail</h1>
+                                           
+                                           <a href="{% url 'dashboardUrls:addProductPage' %}" > <button> create new product</button></a> 
+                    
+                                        </div>
+                                        <!-- end product-head -->
+
+                                        <!-- start product-body -->
+                                        <div class="product-body col-sm-12">
+                                        <!-- start product-basic -->
+                                        <div class="product-basic2 col-sm-12">
+                                           
+                                                                                
+                                    <!-- start plist -->
+                                    <div class="plist col-sm-11 ">
+                                        <div class="row prow col-sm-12">
+                                        <!-- start psearch -->
+                                        <div class="odate col-sm-6 ">
+                                          <div class="ordate col-sm-12 ">
+                                            <i class="fa fa-calendar-o" aria-hidden="true"></i>
+<span>Wed, Aug 13, 2022, 4:34PM</span>
+                                          </div>
+                                          <span>order ID: 234251</span>
+                                        </div>
+                                        <!-- end psearch -->
+                                        <!-- start pcat -->
+                                        <div class="dsave">
+                                        <a href="">save</a>
+                                        </div>
+                                        <!-- end pcart -->
+
+                               </div>
+                                    </div>
+                                    <!-- end plist -->
+<!-- start ordmid -->
+<div class="ordmid col-sm-11">
+<!--start ordmidbox -->
+<div class="ordmidbox col-sm-3">
+<span ><i class="fa fa-user" aria-hidden="true"></i></span>
+<!-- start div -->
+<div>
+<h5>customer</h5>
+<p>John Alexander</p>
+<p>alex@example.com</p>
+<p>+233 501 3475</p>
+</div>
+<!-- end div -->
+</div>
+<!--end ordmidbox -->
+
+</div>
+<!-- end ordmid -->
+
+                                       
+                                        </div>
+                                        <!-- end product-basic2 -->
+                                        
+                                        </div>
+                                        <!-- end product-body -->
+
+                                    </div>
+                                   
+                                </div>
+                                <!-- end product-wrapper -->
+
+                               </div>
+                                <!-- end product-container -->
+
+                                    </div>
+                                    <!-- Page-body end -->
+                                {% endblock %}
