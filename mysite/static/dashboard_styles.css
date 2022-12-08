@@ -454,6 +454,30 @@ width: 100%;
 .ordmidbox i{
     color:#088178;
 }
+.ordend{
+    margin: 0 auto;
+    padding: 30px 0px;
+}
+
+table thead th  {
+    background:#F7F8F9;
+    border:none !important;
+    padding: 10px 5px !important;
+}
+table thead th {
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+
+table tbody th{
+text-transform: capitalize;
+}
+
+table tbody th:nth-child(1){
+    font-weight: 700;
+}
+
 /* order_details.html */
 
 
