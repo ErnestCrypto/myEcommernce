@@ -16,3 +16,11 @@ class IndexView(TemplateView):
 
 class AddProductView(TemplateView):
     template_name = 'add_product.html'
+    
+
+class ProductListView(TemplateView):
+    template_name = 'product_list.html'
+
+
+class orderListView(TemplateView):
+    template_name = 'order_list.html'

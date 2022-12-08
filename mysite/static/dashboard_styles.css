@@ -1,0 +1,375 @@
+/* add_products.html */
+.product-container{
+    padding:2%;
+
+}
+
+
+.product-head{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-head h1{
+    text-transform: capitalize;
+    color: rgba(0,0,0,0.8);
+}
+
+.product-head button{
+    text-transform: capitalize;
+    padding: 10px 22px;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    background:#046963;
+    border: 1px solid #046963;
+    transition: 0.4s ease-in-out;
+
+}
+
+.product-head button:hover{
+    color:#046963;
+    background:white;
+    transform:translateY(-2px);
+}
+
+.product-body{
+ display:flex;
+justify-content: space-between;
+margin-top: 3%; 
+}
+.product-basic{
+    background: white;
+    border-radius: 12px;
+    height: 100vh;
+    padding: 0% !important;
+transition: 0.2s ease-in-out;
+}
+
+.product-basic2{
+    background: white;
+    border-radius: 12px;
+    height: inherit;
+    padding: 0% !important;
+    padding-bottom: 5% !important;
+transition: 0.2s ease-in-out;
+
+
+}
+
+
+.product-specification{
+    background: white;
+    border-radius: 12px;
+    padding: 0% !important;
+transition: 0.2s ease-in-out;
+margin-top: 3%;
+}
+
+
+.product-left{
+    padding: 0% !important;
+    margin: 0 !important;
+position: relative;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+.product-media{
+     background: white;
+    border-radius: 12px;
+    position:absolute;
+    padding: 0% !important;
+transition: 0.2s ease-in-out;
+
+}
+
+
+.product-organization{
+     background: white;
+    border-radius: 12px;
+    position:absolute;
+    height: 50vh;
+bottom: 0%;
+    padding: 0% !important;
+transition: 0.2s ease-in-out;
+
+}
+
+.product-basic:hover,.product-organization:hover,.product-media:hover,.product-specification:hover{
+    transform:translateY(-2px);
+}
+.product-title{
+    padding:25px;
+border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.product-title h5{
+    text-transform: capitalize;
+}
+
+.product-basic-content{
+    display:flex;
+    flex-direction: column;
+    padding:3%;
+
+}
+.product-basic-content label{
+    text-transform: capitalize;
+    font-size:13px;
+}
+.myformcontrol{
+        background-color: #f4f5f9;
+    border: 2px solid #f4f5f9;
+    font-size: 13px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding-left: 20px;
+    color: #4f5d77;
+    width: 100%;
+    border-radius: 4px;
+
+}
+.product-basic-content input,.product-basic-content select{
+    height: 45px;
+    
+}
+
+.product-price{
+    display:flex;
+    justify-content: space-between;
+    padding: 0% !important;
+
+}
+.product-img{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.product-img img{
+    width: 50%;
+}
+/* add_product.html */
+
+/* product_list.html */
+.plist{
+    margin: 0 auto;
+    padding: 2% ;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+  height:15vh;
+ display:flex;
+    align-items: center;
+}
+
+.plist2{
+    margin: 0 auto;
+    padding: 2% ;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+  height:15vh;
+ display:flex;
+    align-items: center;
+    transition:0.4s ease-in-out;
+}
+
+.plist2:hover{
+    background:rgba(49, 103, 235, 0.2);
+}
+
+
+.checkboxp{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.psearch{
+background:#e7e8ec;
+display:flex;
+align-items: center;
+justify-content:space-between;
+padding:0px 15px;
+border-radius: 5px;
+}
+
+
+.psearch input {
+    padding:9px 32px;
+    background:none;
+    outline: none;
+    border: none;
+    color:white;
+}
+
+.prow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pcat{
+    padding:7px 22px 7px 0px;
+border:2px solid #046963;
+border-radius: 5px;
+
+
+}
+.pcat select{
+    outline:none;
+    border: none;
+    padding:0px 54px 0px 10px;
+ text-transform: capitalize;
+    color:#046963;
+}
+
+
+
+.pcat select option{
+    text-transform: capitalize;
+    color:#046963;
+}
+
+.limg{
+  
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    
+}
+
+.limg img{
+    margin-right:10%;
+}
+
+.lprice{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.lprice a{
+    text-decoration:none;
+     text-transform: capitalize;
+    padding: 5px 22px;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    background:#046963;
+    border: 1px solid #046963;
+    transition: 0.4s ease-in-out;
+    margin: 2%;
+    transition: 0.4s ease-in-out;
+}
+
+.lprice a:nth-child(2){
+    background:white;
+    color:#046963;
+}
+
+.lprice a:hover{
+    transform:translateY(-4px);
+}
+
+
+.limg h6{
+    text-transform: capitalize;
+
+}
+
+.lprice p{
+    text-transform: capitalize;
+}
+
+.lprice h6{
+background:#CCF0D1;
+text-transform: capitalize;
+padding: 5px;
+border-radius: 12px;
+font-size: 12px;
+}
+.arc{
+    background:#FFE8D0 !important;
+    color:#98530C !important;
+}
+
+.dis{
+    background:#FDCCCC !important;
+    color:#920000 !important;
+}
+
+.leftright{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 5%;
+}
+
+.leftright a{
+    text-decoration: none;
+    padding: 15px;
+    background:#046963;
+    color: white;
+    border:2px solid #046963;
+    border-radius:5px;
+}
+
+.leftright a:hover{
+    color:#046963;
+    background:white;
+}
+
+
+/* product_list.html */
+
+/* order_list.html */
+.orderlist{
+    padding: 2%;
+}
+.orderlisthead{
+    background:#F7F8F9;
+    padding: 5px 0px;
+    display:flex;
+    align-items: center;
+}
+.orderlistbody{
+    padding: 10px 0px;
+    display:flex;
+    align-items: center;
+    margin:10px 0px;
+
+}
+.orderid{
+   
+  
+    padding:0%;
+}
+.orderid h6,.orderid p{
+    text-transform: capitalize;
+
+}
+.orderid a{
+        text-transform: capitalize;
+        text-decoration: none;
+padding: 8px 12px;
+border-radius:5px;
+border: 2px solid #046963;
+color:white;
+background:#046963;
+}
+.orderid a:hover{
+    background:white;
+    color:#046963;
+}
+.orderid span{
+        text-transform: capitalize;
+
+    /* border-radius: 12px; */
+    /* background:#FFE8D0; */
+    /* color:#98530C; */
+    
+}
+/* order_list.html */

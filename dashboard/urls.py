@@ -9,6 +9,10 @@ app_name = "dashboardUrls"
 urlpatterns=[
     path('',views.IndexView.as_view(),name='indexPage'),
     path('add_product/', views.AddProductView.as_view(), name='addProductPage'),
+    path('product_list/', views.ProductListView.as_view(), name='productListPage'),
+    path('order_list/', views.orderListView.as_view(), name='orderListPage'),
+
+
 
 ]
 
