@@ -494,6 +494,25 @@ table tbody th:nth-child(1){
        
    
 }
+
+.ortbtn{
+    display:flex;
+    justify-content:end;
+
+}
+
+.ortbtn a{
+    text-transform: capitalize;
+    padding: 12px 44px;
+    color: white;
+    background: #046963;
+    border: 2px solid #046963;
+    border-radius: 5px;
+}
+.ortbtn a:hover{
+    color:#046963;
+    background:white;
+}
 /* order_details.html */
 
 
