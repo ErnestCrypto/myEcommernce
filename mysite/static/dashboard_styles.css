@@ -478,6 +478,22 @@ table tbody th:nth-child(1){
     font-weight: 700;
 }
 
+
+.ortailsub{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.ortailsub p,.ortailsub h5{
+    text-transform:capitalize;
+}
+.ortailsub span{
+    text-transform:capitalize;
+    font-weight:bold;
+    color: #00B517 !important;
+       
+   
+}
 /* order_details.html */
 
 
