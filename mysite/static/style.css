@@ -1880,7 +1880,7 @@ color: black;
     }
 
 .logincontainer{ 
-    padding-right:10%;
+    padding:10%;
 }
 
 .loginright{
@@ -2015,29 +2015,37 @@ margin-bottom: 5%;
     padding: 5%;
     
 }
+.emailbox{
+   
+    padding: 15px 15px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-direction: column;
+    width: 100%;
+    height: 30%;
+
+}
 
 .emailbox input{
 
    padding: 5px 20px;
     width: 100%;
-
-  
 }
 
 .subbutton{
-   padding: 10px;
+   padding: 5px 10px;
     width: 40%;
-
-    
+    border: 1px solid #4C5CED;
+    border-radius: 10px; 
 }
 
-.emailbox{
-   
-    padding: 15px 15px;
-   
-    width: 100%;
-
+.subbutton:focus{
+    background: white;
+    color:#4C5CED;
 }
+
+
 
 /* index.html */
 
