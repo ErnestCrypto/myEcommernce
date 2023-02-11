@@ -1881,7 +1881,7 @@ color: black;
     }
 
 .logincontainer{ 
-    padding:10%;
+    margin:10%;
 }
 
 .loginright{
@@ -2234,6 +2234,7 @@ width: 70%;
 padding: 5px 12px;
 font-size: 14px;
 margin: 2px;
+text-align: center;
 border-radius: 5px;
 
 }
@@ -2271,5 +2272,9 @@ padding:2% 10% !important;
     margin-top: 0;
 }
 /* product_details.html */
-
+/* checkout.html */
+.confirmbody{
+    padding:5%;
+}
+/* checkout.html */
 }
