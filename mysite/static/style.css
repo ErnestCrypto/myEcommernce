@@ -2065,6 +2065,11 @@ margin-bottom: 5%;
 
 }
 
+.shopgallery{
+    margin: 0 auto;
+    margin-top: 50% !important;
+}
+
 
 .browsecontainer{
     padding:3% !important ;
@@ -2158,6 +2163,11 @@ margin: 0% 2%;
 
 
 }
+.contactmap{
+    margin: 3% !important;
+  
+}
+
 /* contact.html */
 
 /* cart.html */
@@ -2248,8 +2258,14 @@ border-radius: 5px;
 .psub{
    width:100%; 
 }
+.productdschead{
+padding:2% 10% !important;
+}
+
 .productdschead button{
     margin: 5px;
+padding:2% 10% !important;
+
 }
 .productdsc{
     margin-top: 0;
