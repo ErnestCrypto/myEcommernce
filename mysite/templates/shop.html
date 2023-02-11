@@ -13,9 +13,9 @@
 <div class ="shopbody">
     <!--start shopcontent-->
 <div class="col-sm-10 col-md-10 col-lg-10 shopcontnent">
-<div class="row">
+<div class="row  browserow">
     <!-- start itemlist -->
-    <div class="col-sm-3">
+    <div class="col-sm-3 browsecontainer">
 <!--start browse-->
 <div class="col-sm-12 browse">
     <div class="col-sm-12 shopitemsub1">
@@ -26,6 +26,7 @@
         <div class="row remove">
             <input type="radio" name="men" value="men">
             <p>men</p>
+       
         </div>
         <!--end r-->
         <!--start r -->
@@ -102,13 +103,12 @@
 
 
     
-    <div class="col-sm-9">
+    <div class="col-sm-9 stock">
         <!--start search-->
         <div class="col-sm-12 search">
             <!-- start seaerchitem -->
 <div class="searchitem">
-   
-    <input type="text" name="search" id="mylogin">
+    <input type="text" name="search" >
 <img src="{% static 'img/search_48px.png' %}" height="20" alt="logo">
 
 </div>
@@ -116,183 +116,127 @@
         </div>
         <!-- end search -->
 
-<!-- start searchresult -->
-<div class="searchresult">
-<!-- Carousel wrapper -->
-<div id="carouselMultiItemExample" class="carousel slide carousel-dark text-center " data-mdb-ride="carousel">
-    
-    <!-- Inner -->
-    <div class="carousel-inner py-4 ">
-        <!-- Single item -->
-        <div class="carousel-item active ">
-            <div class="container ">
-                <div class="row ">
-                    
-                    <div class="col-lg-4" >
-                        <a href="{% url 'mysiteUrls:productDetailPage' %}">
-                        <div class="card">
-<img src="{% static 'img/products/photo-1606107557195-0e29a4b5b4aa (1).jpeg' %}"
-    height="100%" width="100%" alt="logo" />
-                            <div class="card-body">
-                                <div class="card-item">
-                                <h5>nike airforce</h5>
-                                <p>ghc 130.00</p>
-                                </div>
-                            </div>
-                        </div>
-                        </a>
-                    </div>
-                    
-
-                    <div class="col-lg-4 d-none d-lg-block">
-                        <a href="#">
-                        <div class="card">
-                            <img src="{% static 'img/products/istockphoto-1320786676-170667a.jpg' %}" height="100%"
-                                width="100%" alt="logo" />
-                           <div class="card-body">
-                                <div class="card-item">
-                                <h5>nike airforce</h5>
-                                <p>ghc 130.00</p>
-                                </div>
-                            </div>
-                        </div>
-                        </a>
-                    </div>
-
-                    <div class="col-lg-4 d-none d-lg-block">
-                        <a href="#">
-                        <div class="card">
-                            <img src="{% static 'img/products/photo-1607522370275-f14206abe5d3.jpeg' %}"
-                                height="100%" width="100%" alt="logo" />
-                           <div class="card-body">
-                                <div class="card-item">
-                                <h5>nike airforce</h5>
-                                <p>ghc 130.00</p>
-                                </div>
-                            </div>
-                        </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
+<!-- start stockitems -->
+<div class="col-sm-12 stockitems">
+    <!-- start stocksub -->
+    <div class="col-sm-12 stocksub">
+        <!-- stockite -->
+        
+        <div class="col-sm-3 stockite">
+            <div class="col-sm-12 stockitesub">
+                <div class="col-sm-12 stockitimg">
+        <a href="{% url 'mysiteUrls:productDetailPage' %}">   <img src="{% static 'img/products/photo-1606107557195-0e29a4b5b4aa (1).jpeg' %}" alt="logo">
+        </a>       
         </div>
-
-        <!-- Single item -->
-        <div class="carousel-item">
-            <div class="container ">
-                <div class="row">
-                    <div class="col-lg-4 col-md-12">
-                    
-                        <div class="card">
-                            <img src="{% static 'img/products/pexels-pixabay-277390.jpg' %}" height="100%" width="100%" alt="logo" />
-                           <div class="card-body">
-                                <div class="card-item">
-                                <h5>nike airforce</h5>
-                                <p>ghc 130.00</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 d-none d-lg-block">
-                        <div class="card">
-                            <img src="{% static 'img/products/Omega-watch-high-quality_m.jpg' %}"
-                                height="100%" width="100%" alt="logo" />
-                           <div class="card-body">
-                                <div class="card-item">
-                                <h5>nike airforce</h5>
-                                <p>ghc 130.00</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 d-none d-lg-block">
-                        <div class="card">
-                        <img src="{% static 'img/products/71S8CqFiKLL._SY355_.jpg' %}"
-                            height="100%" width="100%" alt="logo" />
-                           <div class="card-body">
-                                <div class="card-item">
-                                <h5>nike airforce</h5>
-                                <p>ghc 130.00</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <h5>nike airforce </h5>
+        <p>ghc 130.00</p>
         </div>
-
-        <!-- Single item -->
-        <div class="carousel-item">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-                        <div class="card">
-                            <img src="{% static 'img/products/bleu-de-chanel-parfum-spray-3-4fl-oz-packshot-default-107180-8821897232414.jpg' %}"
-                                height="100%" width="100%" alt="logo" />
-                           <div class="card-body">
-                                <div class="card-item">
-                                <h5>nike airforce</h5>
-                                <p>ghc 130.00</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 mb-4 mb-lg-0 d-none d-lg-block">
-                        <div class="card">
-                            <img src="{% static 'img//products/299-2994689_nike-sb-pique-polo-high-resolution-black-t.png' %}" height="100%"
-                                width="100%" alt="logo">
-                           <div class="card-body">
-                                <div class="card-item">
-                                <h5>nike airforce</h5>
-                                <p>ghc 130.00</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 mb-4 mb-lg-0 d-none d-lg-block">
-                        <div class="card">
-                            <img src="{% static 'img/products/10741489.jpg' %}" height="100%" width="100%" alt="logo">
-                           <div class="card-body">
-                                <div class="card-item">
-                                <h5>nike airforce</h5>
-                                <p>ghc 130.00</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
+           
         </div>
+        <!-- stockite -->
+        <!-- stockite -->
+        <div class="col-sm-3 stockite">
+            <div class="col-sm-12 stockitesub">
+                <div class="col-sm-12 stockitimg">
+                    <img src="{% static 'img/products/png.webp' %}"  width="100%"
+                        alt="logo">
+                </div>
+                <h5>nike airforce </h5>
+                <p>ghc 130.00</p>
+            </div>
+        
+        </div>
+        <!-- stockite -->
+        <!-- stockite -->
+        <div class="col-sm-3 stockite">
+            <div class="col-sm-12 stockitesub">
+                <div class="col-sm-12 stockitimg">
+                    <img src="{% static 'img/products/bath nd body works japanese cherry blossom.webp' %}" 
+                        alt="logo">
+                </div>
+                <h5>nike airforce </h5>
+                <p>ghc 130.00</p>
+            </div>
+        
+        </div>
+        <!-- stockite -->
+        <!-- stockite -->
+        <div class="col-sm-3 stockite">
+            <div class="col-sm-12 stockitesub">
+                <div class="col-sm-12 stockitimg">
+                    <img src="{% static 'img/products/download.png' %}" 
+                        alt="logo">
+                </div>
+                <h5>nike airforce </h5>
+                <p>ghc 130.00</p>
+            </div>
+        
+        </div>
+        <!-- stockite -->
     </div>
-    <!-- Inner -->
-    <!-- Controls -->
-    <div class="d-flex justify-content-center mb-4">
-        <button class="carousel-control-prev position-relative" type="button" data-mdb-target="#carouselMultiItemExample"
-            data-mdb-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        </button>
-        <button class="carousel-control-next position-relative" type="button" data-mdb-target="#carouselMultiItemExample"
-            data-mdb-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        </button>
+    <!-- end stocksub -->
+
+<!-- start stocksub -->
+<div class="col-sm-12 stocksub">
+    <!-- stockite -->
+    <div class="col-sm-3 stockite">
+        <div class="col-sm-12 stockitesub">
+            <div class="col-sm-12 stockitimg">
+                <img src="{% static 'img/products/71D9ImsvEtL._UY500_.jpg' %}"  alt="logo">
+            </div>
+            <h5>nike airforce </h5>
+            <p>ghc 130.00</p>
+        </div>
+
     </div>
-    <!-- controls -->
+    <!-- stockite -->
+    <!-- stockite -->
+    <div class="col-sm-3 stockite">
+        <div class="col-sm-12 stockitesub">
+            <div class="col-sm-12 stockitimg">
+                <img src="{% static 'img/products/Flint-and-Tinder-bone-button-Western-shirt.webp' %}"  alt="logo">
+            </div>
+            <h5>nike airforce </h5>
+            <p>ghc 130.00</p>
+        </div>
+
+    </div>
+    <!-- stockite -->
+    <!-- stockite -->
+    <div class="col-sm-3 stockite">
+        <div class="col-sm-12 stockitesub">
+            <div class="col-sm-12 stockitimg">
+                <img src="{% static 'img/products/_13042022_Shirts_03.webp' %}" alt="logo">
+            </div>
+            <h5>nike airforce </h5>
+            <p>ghc 130.00</p>
+        </div>
+
+    </div>
+    <!-- stockite -->
+    <!-- stockite -->
+    <div class="col-sm-3 stockite">
+        <div class="col-sm-12 stockitesub">
+            <div class="col-sm-12 stockitimg">
+                <img src="{% static 'img/products/86534fc353b746bdb33cae9000ff9f17_9366.webp' %}"  alt="logo">
+            </div>
+            <h5>nike airforce </h5>
+            <p>ghc 130.00</p>
+        </div>
+
+    </div>
+    <!-- stockite -->
 </div>
-<!-- Carousel wrapper -->
-
-
+<!-- end stocksub -->
 
 
 
 
 </div>
-<!-- end searchresult -->
-</div>
+<!-- start stockitems -->
+
+
+    </div>
 <!--end itemright-->
 </div>
 </div>
@@ -300,280 +244,6 @@
 </div>
 <!--end shop body-->
 
-<!-- start shoplist -->
-<div class="col-sm-12 myshoplist">
-    <!-- start shoplistitems -->
-    <div class="col-sm-11 shoplistitems ">
-        <div class="row">
-            <!-- start margin -->
-            <div class="col-sm-3">
-                <!-- start itms -->
-                <div class="col-sm-12 itms ">
-                    <img src="{% static 'img/products/71D9ImsvEtL._UY500_.jpg' %}" height="100%" width="100%" alt="logo">
-                    <!-- start itsmabsolute -->
-                    <div class="itsmabsolute">
-                        <div class="itsmabsolutesub">
-                            <h5>nike airforce </h5>
-                            <p>ghc 130.00</p>
-                        </div>
-                    </div>
-                    <!-- end itsmabsolute -->
-                </div>
-                <!-- end itms -->
-            </div>
-            <!-- end margin -->
-        <!-- start margin -->
-        <div class="col-sm-3">
-            <!-- start itms -->
-            <div class="col-sm-12 itms ">
-                <img src="{% static 'img/products/Flint-and-Tinder-bone-button-Western-shirt.webp' %}" height="100%" width="100%" alt="logo">
-                <!-- start itsmabsolute -->
-                <div class="itsmabsolute">
-                    <div class="itsmabsolutesub">
-                        <h5>shirt </h5>
-                        <p>ghc 130.00</p>
-                    </div>
-                </div>
-                <!-- end itsmabsolute -->
-            </div>
-            <!-- end itms -->
-        </div>
-        <!-- end margin --><!-- start margin -->
-        <div class="col-sm-3">
-            <!-- start itms -->
-            <div class="col-sm-12 itms ">
-                <img src="{% static 'img/products/IWC_Portugieser_YC_Moon-Tides_slider_600FI-340x340.jpg' %}" height="100%" width="100%" alt="logo">
-                <!-- start itsmabsolute -->
-                <div class="itsmabsolute">
-                    <div class="itsmabsolutesub">
-                        <h5>watch</h5>
-                        <p>ghc 130.00</p>
-                    </div>
-                </div>
-                <!-- end itsmabsolute -->
-            </div>
-            <!-- end itms -->
-        </div>
-        <!-- end margin --><!-- start margin -->
-        <div class="col-sm-3">
-            <!-- start itms -->
-            <div class="col-sm-12 itms ">
-                <img src="{% static 'img/products/_13042022_Shirts_03.webp' %}" height="100%" width="100%" alt="logo">
-                <!-- start itsmabsolute -->
-                <div class="itsmabsolute">
-                    <div class="itsmabsolutesub">
-                        <h5>shirt</h5>
-                        <p>ghc 130.00</p>
-                    </div>
-                </div>
-                <!-- end itsmabsolute -->
-            </div>
-            <!-- end itms -->
-        </div>
-        <!-- end margin --><!-- start margin -->
-        <div class="col-sm-3">
-            <!-- start itms -->
-            <div class="col-sm-12 itms ">
-                <img src="{% static 'img/products/3170e623-ab80-4678-9628-14cb6033ab171650883660619USPoloAssnMenWhiteClarkinSneakers1.webp' %}" height="100%" width="100%" alt="logo">
-                <!-- start itsmabsolute -->
-                <div class="itsmabsolute">
-                    <div class="itsmabsolutesub">
-                        <h5>shoe </h5>
-                        <p>ghc 130.00</p>
-                    </div>
-                </div>
-                <!-- end itsmabsolute -->
-            </div>
-            <!-- end itms -->
-        </div>
-        <!-- end margin --><!-- start margin -->
-        <div class="col-sm-3">
-            <!-- start itms -->
-            <div class="col-sm-12 itms ">
-                <img src="{% static 'img/products/ed291e67-4618-49ec-8dda-2c2221a5df41.webp' %}" height="100%" width="100%" alt="logo">
-                <!-- start itsmabsolute -->
-                <div class="itsmabsolute">
-                    <div class="itsmabsolutesub">
-                        <h5>shoe</h5>
-                        <p>ghc 130.00</p>
-                    </div>
-                </div>
-                <!-- end itsmabsolute -->
-            </div>
-            <!-- end itms -->
-        </div>
-        <!-- end margin --><!-- start margin -->
-        <div class="col-sm-3">
-            <!-- start itms -->
-            <div class="col-sm-12 itms ">
-                <img src="{% static 'img/products/Best-body-sprays.webp' %}" height="100%" width="100%" alt="logo">
-                <!-- start itsmabsolute -->
-                <div class="itsmabsolute">
-                    <div class="itsmabsolutesub">
-                        <h5>spray</h5>
-                        <p>ghc 130.00</p>
-                    </div>
-                </div>
-                <!-- end itsmabsolute -->
-            </div>
-            <!-- end itms -->
-        </div>
-        <!-- end margin --><!-- start margin -->
-        <div class="col-sm-3">
-            <!-- start itms -->
-            <div class="col-sm-12 itms ">
-                <img src="{% static 'img/products/vacheron-1636411138.jpg' %}" height="100%" width="100%" alt="logo">
-                <!-- start itsmabsolute -->
-                <div class="itsmabsolute">
-                    <div class="itsmabsolutesub">
-                        <h5>watch</h5>
-                        <p>ghc 130.00</p>
-                    </div>
-                </div>
-                <!-- end itsmabsolute -->
-            </div>
-            <!-- end itms -->
-        </div>
-        <!-- end margin --><!-- start margin -->
-        <div class="col-sm-3">
-            <!-- start itms -->
-            <div class="col-sm-12 itms ">
-                <img src="{% static 'img/products/1529944171-axe-fragrance-spray-1529942743.jpg' %}" height="100%" width="100%" alt="logo">
-                <!-- start itsmabsolute -->
-                <div class="itsmabsolute">
-                    <div class="itsmabsolutesub">
-                        <h5>spray</h5>
-                        <p>ghc 130.00</p>
-                    </div>
-                </div>
-                <!-- end itsmabsolute -->
-            </div>
-            <!-- end itms -->
-        </div>
-        <!-- end margin --><!-- start margin -->
-        <div class="col-sm-3">
-            <!-- start itms -->
-            <div class="col-sm-12 itms ">
-                <img src="{% static 'img/products/beardo-mafia-perfume-body-spray-100-g_1_display_1606289166_467e7e8a.webp' %}" height="100%" width="100%" alt="logo">
-                <!-- start itsmabsolute -->
-                <div class="itsmabsolute">
-                    <div class="itsmabsolutesub">
-                        <h5>spray</h5>
-                        <p>ghc 130.00</p>
-                    </div>
-                </div>
-                <!-- end itsmabsolute -->
-            </div>
-            <!-- end itms -->
-        </div>
-        <!-- end margin --><!-- start margin -->
-        <div class="col-sm-3">
-            <!-- start itms -->
-            <div class="col-sm-12 itms ">
-                <img src="{% static 'img/products/Shirts_0003_Reiss.webp' %}" height="100%" width="100%" alt="logo">
-                <!-- start itsmabsolute -->
-                <div class="itsmabsolute">
-                    <div class="itsmabsolutesub">
-                        <h5>shirts </h5>
-                        <p>ghc 130.00</p>
-                    </div>
-                </div>
-                <!-- end itsmabsolute -->
-            </div>
-            <!-- end itms -->
-        </div>
-        <!-- end margin --><!-- start margin -->
-        <div class="col-sm-3">
-            <!-- start itms -->
-            <div class="col-sm-12 itms ">
-                <img src="{% static 'img/products/whitesneakers-2048px-4180.webp' %}" height="100%" width="100%" alt="logo">
-                <!-- start itsmabsolute -->
-                <div class="itsmabsolute">
-                    <div class="itsmabsolutesub">
-                        <h5>shoe</h5>
-                        <p>ghc 130.00</p>
-                    </div>
-                </div>
-                <!-- end itsmabsolute -->
-            </div>
-            <!-- end itms -->
-        </div>
-        <!-- end margin -->
-        <!-- start margin -->
-        <div class="col-sm-3">
-            <!-- start itms -->
-            <div class="col-sm-12 itms ">
-                <img src="{% static 'img/products/86534fc353b746bdb33cae9000ff9f17_9366.webp' %}" height="100%" width="100%" alt="logo">
-                <!-- start itsmabsolute -->
-                <div class="itsmabsolute">
-                    <div class="itsmabsolutesub">
-                        <h5>nike airforce </h5>
-                        <p>ghc 130.00</p>
-                    </div>
-                </div>
-                <!-- end itsmabsolute -->
-            </div>
-            <!-- end itms -->
-        </div>
-        <!-- end margin -->
-        <!-- start margin -->
-        <div class="col-sm-3">
-            <!-- start itms -->
-            <div class="col-sm-12 itms ">
-                <img src="{% static 'img/products/png.webp' %}" height="100%" width="100%" alt="logo">
-                <!-- start itsmabsolute -->
-                <div class="itsmabsolute">
-                    <div class="itsmabsolutesub">
-                        <h5>nike airforce </h5>
-                        <p>ghc 130.00</p>
-                    </div>
-                </div>
-                <!-- end itsmabsolute -->
-            </div>
-            <!-- end itms -->
-        </div>
-        <!-- end margin -->
-        <!-- start margin -->
-        <div class="col-sm-3">
-            <!-- start itms -->
-            <div class="col-sm-12 itms ">
-                <img src="{% static 'img/products/bath nd body works japanese cherry blossom.webp' %}" height="100%" width="100%" alt="logo">
-                <!-- start itsmabsolute -->
-                <div class="itsmabsolute">
-                    <div class="itsmabsolutesub">
-                        <h5>spray </h5>
-                        <p>ghc 130.00</p>
-                    </div>
-                </div>
-                <!-- end itsmabsolute -->
-            </div>
-            <!-- end itms -->
-        </div>
-        <!-- end margin -->
-        <!-- start margin -->
-        <div class="col-sm-3">
-            <!-- start itms -->
-            <div class="col-sm-12 itms ">
-                <img src="{% static 'img/products/download.png' %}" height="100%" width="100%" alt="logo">
-                <!-- start itsmabsolute -->
-                <div class="itsmabsolute">
-                    <div class="itsmabsolutesub">
-                        <h5>spray </h5>
-                        <p>ghc 130.00</p>
-                    </div>
-                </div>
-                <!-- end itsmabsolute -->
-            </div>
-            <!-- end itms -->
-        </div>
-        <!-- end margin -->
-            
-        </div>
-      
-    </div>
-    <!-- end shoplistitems -->
-</div>
-<!-- end shoplist -->
 
 <div class="col-sm-10 shopgallery">
     <!--start producttext-->
