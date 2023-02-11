@@ -2148,13 +2148,18 @@ margin: 0% 2%;
 .cartcontent1{
 text-align: start;
 padding: 0 !important;
-}
-.cartgroup{
-    flex-direction: column;
+display: flex;
+align-items: flex-start;
+justify-content: center;
+flex-direction: column;
+width: 30%;
 }
 
+
 .cartcontent2{
-    justify-content:space-between;
+    justify-content:space-around;
+width: 70%;
+   
 }
 .pi{
     width: 70%;
@@ -2169,14 +2174,41 @@ padding: 0 !important;
     width: 100%;
 }
 .cartitemimg{
-    width: 30%;
+    width: 100%;
 
 }
 
+.cartupdate a{
+    text-decoration: none;
+    padding: 5px 12px;
+    background:#4C5CED;
+   border-radius: 5px;
+    color:white;
+    border: 1px solid #4C5CED;
+    text-transform: capitalize;
+
+}
+
+.delivery a{
+    text-decoration: none;
+    margin: 3%;
+    padding: 5px 44px;
+    color:black;
+    border: 1px solid #F1F6F7;
+    background:#F1F6F7;
+      border-radius: 5px;
+
+    text-transform: capitalize;
+    font-weight: bold;
+    color: rgba(0,0,0,0.8);
+}
+
+
 .cartlast a{
-padding: 2px 44px;
-font-size: 16px;
+padding: 5px 12px;
+font-size: 14px;
 margin: 2px;
+border-radius: 5px;
 
 }
 .subtotal{
