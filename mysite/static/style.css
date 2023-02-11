@@ -1973,7 +1973,7 @@ left:0% !important;
 }
 
 .discountlist{
-    top: 5% !important;
+    top: 10% !important;
 }
 .discountsub{
       display:flex;
@@ -2034,6 +2034,8 @@ margin-bottom: 5%;
 
    padding: 5px 20px;
     width: 100%;
+    margin-bottom: 3%;
+
 }
 
 .subbutton{
